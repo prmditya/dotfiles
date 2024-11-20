@@ -54,3 +54,35 @@
 [ERROR Wed Nov 20 19:48:01 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=flake8) error=spawn: python3 failed with exit code 1 and signal 0. 
 [INFO  Wed Nov 20 19:49:40 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=flake8) {}
 [ERROR Wed Nov 20 19:49:41 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=flake8) error=spawn: python3 failed with exit code 1 and signal 0. 
+[INFO  Wed Nov 20 19:57:24 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=flake8) {}
+[ERROR Wed Nov 20 19:57:25 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=flake8) error=spawn: python3 failed with exit code 1 and signal 0. 
+[INFO  Wed Nov 20 19:58:24 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=flake8) {}
+[ERROR Wed Nov 20 19:58:25 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=flake8) error=spawn: python3 failed with exit code 1 and signal 0. 
+[INFO  Wed Nov 20 20:04:40 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=flake8) {}
+[ERROR Wed Nov 20 20:04:41 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=flake8) error=spawn: python3 failed with exit code 1 and signal 0. 
+[INFO  Wed Nov 20 20:07:09 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=flake8) {}
+[ERROR Wed Nov 20 20:07:10 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=flake8) error=spawn: python3 failed with exit code 1 and signal 0. 
+[INFO  Wed Nov 20 20:07:51 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=flake8) {}
+[ERROR Wed Nov 20 20:07:51 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=flake8) error=spawn: python3 failed with exit code 1 and signal 0. 
+[INFO  Wed Nov 20 20:27:41 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=flake8) {}
+[ERROR Wed Nov 20 20:27:44 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=flake8) error=spawn: python3 failed with exit code 1 and signal 0. 
+[INFO  Wed Nov 20 20:33:21 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=flake8) {}
+[ERROR Wed Nov 20 20:33:22 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=flake8) error=spawn: python3 failed with exit code 1 and signal 0. 
+[INFO  Wed Nov 20 20:33:28 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=flake8) {}
+[ERROR Wed Nov 20 20:33:32 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=flake8) error=spawn: python3 failed with exit code 1 and signal 0. 
+[INFO  Wed Nov 20 20:37:52 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=flake8) {}
+[ERROR Wed Nov 20 20:37:56 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=flake8) error=spawn: python3 failed with exit code 1 and signal 0. 
+[INFO  Wed Nov 20 20:38:05 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=flake8) {}
+[ERROR Wed Nov 20 20:38:08 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=flake8) error=spawn: python3 failed with exit code 1 and signal 0. 
+[INFO  Wed Nov 20 20:38:36 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=flake8) {}
+[ERROR Wed Nov 20 20:38:39 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=flake8) error=spawn: python3 failed with exit code 1 and signal 0. 
+[INFO  Wed Nov 20 20:39:42 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=flake8) {}
+[ERROR Wed Nov 20 20:39:44 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=flake8) error=spawn: python3 failed with exit code 1 and signal 0. 
+[INFO  Wed Nov 20 20:40:12 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=flake8) {}
+[ERROR Wed Nov 20 20:40:13 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=flake8) error=spawn: python3 failed with exit code 1 and signal 0. 
+[INFO  Wed Nov 20 20:45:36 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=flake8) {}
+[ERROR Wed Nov 20 20:45:37 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=flake8) error=spawn: python3 failed with exit code 1 and signal 0. 
+[INFO  Wed Nov 20 20:46:02 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=flake8) {}
+[ERROR Wed Nov 20 20:46:11 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=flake8) error=spawn: python3 failed with exit code 1 and signal 0. 
+[INFO  Wed Nov 20 20:48:03 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=flake8) {}
+[ERROR Wed Nov 20 20:48:04 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=flake8) error=spawn: python3 failed with exit code 1 and signal 0. 

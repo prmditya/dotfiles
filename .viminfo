@@ -10,13 +10,18 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~MSle0~/fzf
+
 # Command Line History (newest to oldest):
 :q
-|2,0,1732104978,,"q"
+|2,0,1732109324,,"q"
 :w
-|2,0,1732104978,,"w"
+|2,0,1732107776,,"w"
 
 # Search String History (newest to oldest):
+?/fzf
+|2,1,1732107726,47,"fzf"
 
 # Expression History (newest to oldest):
 
@@ -25,7 +30,10 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-""1	LINE	0
+""0	LINE	0
+	source <(fzf --zsh)
+|3,1,0,1,1,0,1732107738,"source <(fzf --zsh)"
+"1	LINE	0
 	# If you come from bash you might have to change your $PATH.
 	# export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 	
@@ -76,7 +84,7 @@
 	# e.g. COMPLETION_WAITING_DOTS="%F{yellow}waiting...%f"
 	# Caution: this setting can cause issues with multiline prompts in zsh < 5.7.1 (see #5765)
 	# COMPLETION_WAITING_DOTS="true"
-|3,1,1,1,50,0,1732104975,"# If you come from bash you might have to change your $PATH.","# export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH","","# Path to your Oh My Zsh installation.","export ZSH=\"$HOME/.oh-my-zsh\"","","# Set name of the theme to load --- if set to \"random\", it will","# load a random theme each time Oh My Zsh is loaded, in which case,","# to know which specific one was loaded, run: echo $RANDOM_THEME",>54
+|3,0,1,1,50,0,1732104975,"# If you come from bash you might have to change your $PATH.","# export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH","","# Path to your Oh My Zsh installation.","export ZSH=\"$HOME/.oh-my-zsh\"","","# Set name of the theme to load --- if set to \"random\", it will","# load a random theme each time Oh My Zsh is loaded, in which case,","# to know which specific one was loaded, run: echo $RANDOM_THEME",>54
 |<"# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes","ZSH_THEME=\"robbyrussell\"","","# Set list of themes to pick from when loading at random","# Setting this variable when ZSH_THEME=random will cause zsh to load","# a theme from this variable instead of looking in $ZSH/themes/","# If set to an empty array, this variable will have no effect.","# ZSH_THEME_RANDOM_CANDIDATES=( \"robbyrussell\" \"agnoster\" )","","# Uncomment the following line to use case-sensitive completion.",>27
 |<"# CASE_SENSITIVE=\"true\"","","# Uncomment the following line to use hyphen-insensitive completion.","# Case-sensitive completion must be off. _ and - will be interchangeable.","# HYPHEN_INSENSITIVE=\"true\"","","# Uncomment one of the following lines to change the auto-update behavior","# zstyle ':omz:update' mode disabled  # disable automatic updates","# zstyle ':omz:update' mode auto      # update automatically without asking",>81
 |<"# zstyle ':omz:update' mode reminder  # just remind me to update when it's time","","# Uncomment the following line to change how often to auto-update (in days).","# zstyle ':omz:update' frequency 13","","# Uncomment the following line if pasting URLs and other text is messed up.","# DISABLE_MAGIC_FUNCTIONS=\"true\"","","# Uncomment the following line to disable colors in ls.","# DISABLE_LS_COLORS=\"true\"","","# Uncomment the following line to disable auto-setting terminal title.",>31
@@ -84,22 +92,70 @@
 |<"# COMPLETION_WAITING_DOTS=\"true\""
 
 # File marks:
-'0  252  9  ~/.zshrc
-|4,48,252,9,1732104978,"~/.zshrc"
-'1  252  9  /mnt/c/Users/thori/.zshrc
-|4,49,252,9,1732104813,"/mnt/c/Users/thori/.zshrc"
-'2  120  0  ~/.bashrc
-|4,50,120,0,1732104407,"~/.bashrc"
+'0  91  0  ~/.zshrc
+|4,48,91,0,1732107778,"~/.zshrc"
+'1  252  9  ~/.zshrc
+|4,49,252,9,1732104978,"~/.zshrc"
+'2  252  9  ~/.zshrc
+|4,50,252,9,1732104978,"~/.zshrc"
+'3  252  9  /mnt/c/Users/thori/.zshrc
+|4,51,252,9,1732104813,"/mnt/c/Users/thori/.zshrc"
+'4  120  0  ~/.bashrc
+|4,52,120,0,1732104407,"~/.bashrc"
 
 # Jumplist (newest first):
+-'  91  0  ~/.zshrc
+|4,39,91,0,1732107778,"~/.zshrc"
+-'  91  0  ~/.zshrc
+|4,39,91,0,1732107778,"~/.zshrc"
+-'  182  9  ~/.zshrc
+|4,39,182,9,1732107726,"~/.zshrc"
+-'  182  9  ~/.zshrc
+|4,39,182,9,1732107726,"~/.zshrc"
+-'  252  9  ~/.zshrc
+|4,39,252,9,1732107721,"~/.zshrc"
+-'  252  9  ~/.zshrc
+|4,39,252,9,1732107721,"~/.zshrc"
 -'  252  9  ~/.zshrc
 |4,39,252,9,1732104978,"~/.zshrc"
+-'  252  9  ~/.zshrc
+|4,39,252,9,1732104978,"~/.zshrc"
+-'  1  11  ~/.zshrc
+|4,39,1,11,1732104968,"~/.zshrc"
+-'  1  11  ~/.zshrc
+|4,39,1,11,1732104968,"~/.zshrc"
+-'  1  11  ~/.zshrc
+|4,39,1,11,1732104968,"~/.zshrc"
 -'  1  11  ~/.zshrc
 |4,39,1,11,1732104968,"~/.zshrc"
 -'  252  9  /mnt/c/Users/thori/.zshrc
 |4,39,252,9,1732104813,"/mnt/c/Users/thori/.zshrc"
 -'  252  9  /mnt/c/Users/thori/.zshrc
 |4,39,252,9,1732104813,"/mnt/c/Users/thori/.zshrc"
+-'  252  9  /mnt/c/Users/thori/.zshrc
+|4,39,252,9,1732104813,"/mnt/c/Users/thori/.zshrc"
+-'  252  9  /mnt/c/Users/thori/.zshrc
+|4,39,252,9,1732104813,"/mnt/c/Users/thori/.zshrc"
+-'  252  9  /mnt/c/Users/thori/.zshrc
+|4,39,252,9,1732104813,"/mnt/c/Users/thori/.zshrc"
+-'  252  9  /mnt/c/Users/thori/.zshrc
+|4,39,252,9,1732104813,"/mnt/c/Users/thori/.zshrc"
+-'  252  9  /mnt/c/Users/thori/.zshrc
+|4,39,252,9,1732104813,"/mnt/c/Users/thori/.zshrc"
+-'  252  9  /mnt/c/Users/thori/.zshrc
+|4,39,252,9,1732104813,"/mnt/c/Users/thori/.zshrc"
+-'  1  0  /mnt/c/Users/thori/.zshrc
+|4,39,1,0,1732104806,"/mnt/c/Users/thori/.zshrc"
+-'  1  0  /mnt/c/Users/thori/.zshrc
+|4,39,1,0,1732104806,"/mnt/c/Users/thori/.zshrc"
+-'  1  0  /mnt/c/Users/thori/.zshrc
+|4,39,1,0,1732104806,"/mnt/c/Users/thori/.zshrc"
+-'  1  0  /mnt/c/Users/thori/.zshrc
+|4,39,1,0,1732104806,"/mnt/c/Users/thori/.zshrc"
+-'  1  0  /mnt/c/Users/thori/.zshrc
+|4,39,1,0,1732104806,"/mnt/c/Users/thori/.zshrc"
+-'  1  0  /mnt/c/Users/thori/.zshrc
+|4,39,1,0,1732104806,"/mnt/c/Users/thori/.zshrc"
 -'  1  0  /mnt/c/Users/thori/.zshrc
 |4,39,1,0,1732104806,"/mnt/c/Users/thori/.zshrc"
 -'  1  0  /mnt/c/Users/thori/.zshrc
@@ -112,6 +168,54 @@
 |4,39,120,0,1732104407,"~/.bashrc"
 -'  120  0  ~/.bashrc
 |4,39,120,0,1732104407,"~/.bashrc"
+-'  120  0  ~/.bashrc
+|4,39,120,0,1732104407,"~/.bashrc"
+-'  120  0  ~/.bashrc
+|4,39,120,0,1732104407,"~/.bashrc"
+-'  120  0  ~/.bashrc
+|4,39,120,0,1732104407,"~/.bashrc"
+-'  120  0  ~/.bashrc
+|4,39,120,0,1732104407,"~/.bashrc"
+-'  120  0  ~/.bashrc
+|4,39,120,0,1732104407,"~/.bashrc"
+-'  120  0  ~/.bashrc
+|4,39,120,0,1732104407,"~/.bashrc"
+-'  120  0  ~/.bashrc
+|4,39,120,0,1732104407,"~/.bashrc"
+-'  120  0  ~/.bashrc
+|4,39,120,0,1732104407,"~/.bashrc"
+-'  120  0  ~/.bashrc
+|4,39,120,0,1732104407,"~/.bashrc"
+-'  120  0  ~/.bashrc
+|4,39,120,0,1732104407,"~/.bashrc"
+-'  120  0  ~/.bashrc
+|4,39,120,0,1732104407,"~/.bashrc"
+-'  120  0  ~/.bashrc
+|4,39,120,0,1732104407,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732104393,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732104393,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732104393,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732104393,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732104393,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732104393,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732104393,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732104393,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732104393,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732104393,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732104393,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1732104393,"~/.bashrc"
 -'  1  0  ~/.bashrc
 |4,39,1,0,1732104393,"~/.bashrc"
 -'  1  0  ~/.bashrc
@@ -124,12 +228,13 @@
 # History of marks within files (newest to oldest):
 
 > ~/.zshrc
-	*	1732104978	0
-	"	252	9
-	^	252	10
-	.	252	9
+	*	1732107776	0
+	"	91	0
+	^	91	18
+	.	91	17
 	+	253	0
 	+	252	9
+	+	91	17
 
 > /mnt/c/Users/thori/.zshrc
 	*	1732104812	0

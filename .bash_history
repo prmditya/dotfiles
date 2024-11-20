@@ -163,3 +163,16 @@ which zsh
 which $SHELL
 chsh -s /usr/bin/zsh
 exit
+z
+cd
+vim .zshrc
+clear
+exit
+bat
+zsh
+vim
+clear
+exit
+bat
+zsh
+exit

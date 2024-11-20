@@ -10,6 +10,7 @@ fi
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
+export PATH="$HOME/.local/bin:$PATH"
 
 LC_CTYPE=en_US.UTF-8
 LC_ALL=en_US.UTF-8
@@ -88,10 +89,36 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-source <(fzf --zsh)
 alias inv='nvim $(fzf --preview="bat --color=always {}")'
 # auto suggest
+# CTRL-Y to copy the command into clipboard using pbcopy
+# Use fzf for history search
+# Use fzf for history search
+export FZF_DEFAULT_OPTS="--height 40% --border --reverse"
 
+# Bind Ctrl + R to search through history using fzf
+bindkey '^R' fzf-history-widget
+
+fzf-history-widget() {
+  local history_search
+  # Use history command and pipe through awk to remove the numbers
+  history_search=$(history | awk '{$1=""; print substr($0,2)}' | fzf --reverse)
+  LBUFFER=$history_search
+  zle reset-prompt
+}
+zle -N fzf-history-widget
+
+# Bind Ctrl + F to search for files using fzf
+bindkey '^F' fzf-file-widget
+
+# Function to find files using fzf
+fzf-file-widget() {
+  local file
+  file=$(find . -type f | fzf --reverse)
+  LBUFFER=$file
+  zle reset-prompt
+}
+zle -N fzf-file-widget
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
