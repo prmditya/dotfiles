@@ -1,0 +1,342 @@
+0 verbose cli /home/ditya/.nvm/versions/node/v22.11.0/bin/node /home/ditya/.nvm/versions/node/v22.11.0/bin/npm
+1 info using npm@10.9.0
+2 info using node@v22.11.0
+3 silly config load:file:/home/ditya/.nvm/versions/node/v22.11.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/ditya/.local/share/nvim/mason/staging/json-lsp/.npmrc
+5 silly config load:file:/home/ditya/.npmrc
+6 silly config load:file:/home/ditya/.nvm/versions/node/v22.11.0/etc/npmrc
+7 verbose title npm install vscode-langservers-extracted@4.10.0
+8 verbose argv "install" "vscode-langservers-extracted@4.10.0"
+9 verbose logfile logs-max:10 dir:/home/ditya/.npm/_logs/2024-11-20T12_32_07_551Z-
+10 verbose logfile /home/ditya/.npm/_logs/2024-11-20T12_32_07_551Z-debug-0.log
+11 silly logfile start cleaning logs, removing 4 files
+12 silly packumentCache heap:2048393216 maxSize:512098304 maxEntrySize:256049152
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest vscode-langservers-extracted@4.10.0
+16 silly packumentCache full:https://registry.npmjs.org/vscode-langservers-extracted cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/vscode-langservers-extracted 14ms (cache hit)
+18 silly packumentCache full:https://registry.npmjs.org/vscode-langservers-extracted set size:73939 disposed:false
+19 silly placeDep ROOT vscode-langservers-extracted@4.10.0 OK for: @mason/json-lsp@1.0.0 want: 4.10.0
+20 silly fetch manifest @vscode/l10n@^0.0.18
+21 silly packumentCache full:https://registry.npmjs.org/@vscode%2fl10n cache-miss
+22 silly fetch manifest core-js@^3.20.1
+23 silly packumentCache full:https://registry.npmjs.org/core-js cache-miss
+24 silly fetch manifest jsonc-parser@^3.2.1
+25 silly packumentCache full:https://registry.npmjs.org/jsonc-parser cache-miss
+26 http fetch GET 200 https://registry.npmjs.org/@vscode%2fl10n 12ms (cache hit)
+27 silly packumentCache full:https://registry.npmjs.org/@vscode%2fl10n set size:58396 disposed:false
+28 silly fetch manifest regenerator-runtime@^0.13.9
+29 silly packumentCache full:https://registry.npmjs.org/regenerator-runtime cache-miss
+30 http fetch GET 200 https://registry.npmjs.org/jsonc-parser 14ms (cache hit)
+31 silly packumentCache full:https://registry.npmjs.org/jsonc-parser set size:122648 disposed:false
+32 silly fetch manifest request-light@^0.7.0
+33 silly packumentCache full:https://registry.npmjs.org/request-light cache-miss
+34 http fetch GET 200 https://registry.npmjs.org/core-js 20ms (cache hit)
+35 silly packumentCache full:https://registry.npmjs.org/core-js set size:755093 disposed:false
+36 silly fetch manifest semver@^7.6.1
+37 silly packumentCache full:https://registry.npmjs.org/semver cache-miss
+38 http fetch GET 200 https://registry.npmjs.org/regenerator-runtime 28ms (cache hit)
+39 silly packumentCache full:https://registry.npmjs.org/regenerator-runtime set size:59671 disposed:false
+40 silly fetch manifest typescript@^4.0.5
+41 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+42 http fetch GET 200 https://registry.npmjs.org/request-light 28ms (cache hit)
+43 silly packumentCache full:https://registry.npmjs.org/request-light set size:72847 disposed:false
+44 silly fetch manifest vscode-css-languageservice@^6.2.14
+45 silly packumentCache full:https://registry.npmjs.org/vscode-css-languageservice cache-miss
+46 http fetch GET 200 https://registry.npmjs.org/semver 14ms (cache hit)
+47 silly packumentCache full:https://registry.npmjs.org/semver set size:215926 disposed:false
+48 silly fetch manifest vscode-html-languageservice@^5.2.0
+49 silly packumentCache full:https://registry.npmjs.org/vscode-html-languageservice cache-miss
+50 http fetch GET 200 https://registry.npmjs.org/vscode-css-languageservice 17ms (cache hit)
+51 silly packumentCache full:https://registry.npmjs.org/vscode-css-languageservice set size:631966 disposed:false
+52 silly fetch manifest vscode-json-languageservice@^5.3.11
+53 silly packumentCache full:https://registry.npmjs.org/vscode-json-languageservice cache-miss
+54 http fetch GET 200 https://registry.npmjs.org/vscode-html-languageservice 48ms (cache hit)
+55 silly packumentCache full:https://registry.npmjs.org/vscode-html-languageservice set size:483640 disposed:false
+56 silly fetch manifest vscode-languageserver@^10.0.0-next.3
+57 silly packumentCache full:https://registry.npmjs.org/vscode-languageserver cache-miss
+58 http fetch GET 200 https://registry.npmjs.org/typescript 107ms (cache hit)
+59 silly packumentCache full:https://registry.npmjs.org/typescript set size:13482982 disposed:false
+60 silly fetch manifest vscode-languageserver-textdocument@^1.0.11
+61 silly packumentCache full:https://registry.npmjs.org/vscode-languageserver-textdocument cache-miss
+62 http fetch GET 200 https://registry.npmjs.org/vscode-json-languageservice 498ms (cache hit)
+63 silly packumentCache full:https://registry.npmjs.org/vscode-json-languageservice set size:491186 disposed:false
+64 silly fetch manifest vscode-languageserver-types@^3.17.5
+65 silly packumentCache full:https://registry.npmjs.org/vscode-languageserver-types cache-miss
+66 http fetch GET 200 https://registry.npmjs.org/vscode-languageserver 490ms (cache hit)
+67 silly packumentCache full:https://registry.npmjs.org/vscode-languageserver set size:696816 disposed:false
+68 silly fetch manifest vscode-markdown-languageservice@^0.5.0-alpha.6
+69 silly packumentCache full:https://registry.npmjs.org/vscode-markdown-languageservice cache-miss
+70 http fetch GET 200 https://registry.npmjs.org/vscode-languageserver-textdocument 81ms (cache hit)
+71 silly packumentCache full:https://registry.npmjs.org/vscode-languageserver-textdocument set size:66497 disposed:false
+72 silly fetch manifest vscode-nls@^5.2.0
+73 silly packumentCache full:https://registry.npmjs.org/vscode-nls cache-miss
+74 http fetch GET 200 https://registry.npmjs.org/vscode-markdown-languageservice 34ms (cache hit)
+75 silly packumentCache full:https://registry.npmjs.org/vscode-markdown-languageservice set size:190031 disposed:false
+76 silly fetch manifest vscode-uri@^3.0.8
+77 silly packumentCache full:https://registry.npmjs.org/vscode-uri cache-miss
+78 http fetch GET 200 https://registry.npmjs.org/vscode-languageserver-types 72ms (cache hit)
+79 silly packumentCache full:https://registry.npmjs.org/vscode-languageserver-types set size:304524 disposed:false
+80 http fetch GET 200 https://registry.npmjs.org/vscode-nls 35ms (cache hit)
+81 silly packumentCache full:https://registry.npmjs.org/vscode-nls set size:100194 disposed:false
+82 http fetch GET 200 https://registry.npmjs.org/vscode-uri 16ms (cache hit)
+83 silly packumentCache full:https://registry.npmjs.org/vscode-uri set size:75569 disposed:false
+84 silly placeDep node_modules/vscode-langservers-extracted @vscode/l10n@0.0.18 OK for: vscode-langservers-extracted@4.10.0 want: ^0.0.18
+85 silly placeDep node_modules/vscode-langservers-extracted core-js@3.39.0 OK for: vscode-langservers-extracted@4.10.0 want: ^3.20.1
+86 silly placeDep node_modules/vscode-langservers-extracted jsonc-parser@3.3.1 OK for: vscode-langservers-extracted@4.10.0 want: ^3.2.1
+87 silly placeDep node_modules/vscode-langservers-extracted regenerator-runtime@0.13.11 OK for: vscode-langservers-extracted@4.10.0 want: ^0.13.9
+88 silly placeDep node_modules/vscode-langservers-extracted request-light@0.7.0 OK for: vscode-langservers-extracted@4.10.0 want: ^0.7.0
+89 silly placeDep node_modules/vscode-langservers-extracted semver@7.6.3 OK for: vscode-langservers-extracted@4.10.0 want: ^7.6.1
+90 silly placeDep node_modules/vscode-langservers-extracted typescript@4.9.5 OK for: vscode-langservers-extracted@4.10.0 want: ^4.0.5
+91 silly placeDep node_modules/vscode-langservers-extracted vscode-css-languageservice@6.3.1 OK for: vscode-langservers-extracted@4.10.0 want: ^6.2.14
+92 silly placeDep node_modules/vscode-langservers-extracted vscode-html-languageservice@5.3.1 OK for: vscode-langservers-extracted@4.10.0 want: ^5.2.0
+93 silly placeDep node_modules/vscode-langservers-extracted vscode-json-languageservice@5.4.1 OK for: vscode-langservers-extracted@4.10.0 want: ^5.3.11
+94 silly placeDep node_modules/vscode-langservers-extracted vscode-languageserver@10.0.0-next.11 OK for: vscode-langservers-extracted@4.10.0 want: ^10.0.0-next.3
+95 silly placeDep node_modules/vscode-langservers-extracted vscode-languageserver-textdocument@1.0.12 OK for: vscode-langservers-extracted@4.10.0 want: ^1.0.11
+96 silly placeDep node_modules/vscode-langservers-extracted vscode-languageserver-types@3.17.5 OK for: vscode-langservers-extracted@4.10.0 want: ^3.17.5
+97 silly placeDep node_modules/vscode-langservers-extracted vscode-markdown-languageservice@0.5.0-alpha.8 OK for: vscode-langservers-extracted@4.10.0 want: ^0.5.0-alpha.6
+98 silly placeDep node_modules/vscode-langservers-extracted vscode-nls@5.2.0 OK for: vscode-langservers-extracted@4.10.0 want: ^5.2.0
+99 silly placeDep node_modules/vscode-langservers-extracted vscode-uri@3.0.8 OK for: vscode-langservers-extracted@4.10.0 want: ^3.0.8
+100 silly fetch manifest vscode-languageserver-types@3.17.5
+101 silly packumentCache full:https://registry.npmjs.org/vscode-languageserver-types cache-hit
+102 silly fetch manifest vscode-languageserver-textdocument@^1.0.12
+103 silly packumentCache full:https://registry.npmjs.org/vscode-languageserver-textdocument cache-hit
+104 silly fetch manifest vscode-languageserver-protocol@3.17.6-next.11
+105 silly packumentCache full:https://registry.npmjs.org/vscode-languageserver-protocol cache-miss
+106 silly fetch manifest @vscode/l10n@^0.0.10
+107 silly packumentCache full:https://registry.npmjs.org/@vscode%2fl10n cache-hit
+108 silly fetch manifest node-html-parser@^6.1.5
+109 silly packumentCache full:https://registry.npmjs.org/node-html-parser cache-miss
+110 silly fetch manifest picomatch@^2.3.1
+111 silly packumentCache full:https://registry.npmjs.org/picomatch cache-miss
+112 http fetch GET 200 https://registry.npmjs.org/vscode-languageserver-protocol 20ms (cache hit)
+113 silly packumentCache full:https://registry.npmjs.org/vscode-languageserver-protocol set size:466404 disposed:false
+114 silly fetch manifest vscode-languageserver-protocol@^3.17.1
+115 silly packumentCache full:https://registry.npmjs.org/vscode-languageserver-protocol cache-hit
+116 silly fetch manifest vscode-uri@^3.0.7
+117 silly packumentCache full:https://registry.npmjs.org/vscode-uri cache-hit
+118 http fetch GET 200 https://registry.npmjs.org/node-html-parser 31ms (cache hit)
+119 silly packumentCache full:https://registry.npmjs.org/node-html-parser set size:479706 disposed:false
+120 http fetch GET 200 https://registry.npmjs.org/picomatch 37ms (cache hit)
+121 silly packumentCache full:https://registry.npmjs.org/picomatch set size:116191 disposed:false
+122 silly placeDep node_modules/vscode-langservers-extracted vscode-languageserver-protocol@3.17.6-next.11 OK for: vscode-languageserver@10.0.0-next.11 want: 3.17.6-next.11
+123 silly fetch manifest vscode-jsonrpc@9.0.0-next.6
+124 silly packumentCache full:https://registry.npmjs.org/vscode-jsonrpc cache-miss
+125 silly fetch manifest vscode-languageserver-types@3.17.6-next.5
+126 silly packumentCache full:https://registry.npmjs.org/vscode-languageserver-types cache-hit
+127 http fetch GET 200 https://registry.npmjs.org/vscode-jsonrpc 4ms (cache hit)
+128 silly packumentCache full:https://registry.npmjs.org/vscode-jsonrpc set size:366417 disposed:false
+129 silly placeDep node_modules/vscode-langservers-extracted vscode-jsonrpc@9.0.0-next.6 OK for: vscode-languageserver-protocol@3.17.6-next.11 want: 9.0.0-next.6
+130 silly placeDep node_modules/vscode-langservers-extracted/node_modules/vscode-languageserver-protocol vscode-languageserver-types@3.17.6-next.5 OK for: vscode-languageserver-protocol@3.17.6-next.11 want: 3.17.6-next.5
+131 silly placeDep node_modules/vscode-langservers-extracted/node_modules/vscode-markdown-languageservice @vscode/l10n@0.0.10 OK for: vscode-markdown-languageservice@0.5.0-alpha.8 want: ^0.0.10
+132 silly placeDep node_modules/vscode-langservers-extracted node-html-parser@6.1.13 OK for: vscode-markdown-languageservice@0.5.0-alpha.8 want: ^6.1.5
+133 silly placeDep node_modules/vscode-langservers-extracted picomatch@2.3.1 OK for: vscode-markdown-languageservice@0.5.0-alpha.8 want: ^2.3.1
+134 silly placeDep node_modules/vscode-langservers-extracted/node_modules/vscode-markdown-languageservice vscode-languageserver-protocol@3.17.5 OK for: vscode-markdown-languageservice@0.5.0-alpha.8 want: ^3.17.1
+135 silly fetch manifest he@1.2.0
+136 silly packumentCache full:https://registry.npmjs.org/he cache-miss
+137 silly fetch manifest css-select@^5.1.0
+138 silly packumentCache full:https://registry.npmjs.org/css-select cache-miss
+139 silly fetch manifest vscode-jsonrpc@8.2.0
+140 silly packumentCache full:https://registry.npmjs.org/vscode-jsonrpc cache-hit
+141 http fetch GET 200 https://registry.npmjs.org/he 16ms (cache hit)
+142 silly packumentCache full:https://registry.npmjs.org/he set size:58773 disposed:false
+143 http fetch GET 200 https://registry.npmjs.org/css-select 16ms (cache hit)
+144 silly packumentCache full:https://registry.npmjs.org/css-select set size:93710 disposed:false
+145 silly placeDep node_modules/vscode-langservers-extracted css-select@5.1.0 OK for: node-html-parser@6.1.13 want: ^5.1.0
+146 silly placeDep node_modules/vscode-langservers-extracted he@1.2.0 OK for: node-html-parser@6.1.13 want: 1.2.0
+147 silly fetch manifest boolbase@^1.0.0
+148 silly packumentCache full:https://registry.npmjs.org/boolbase cache-miss
+149 silly fetch manifest css-what@^6.1.0
+150 silly packumentCache full:https://registry.npmjs.org/css-what cache-miss
+151 silly fetch manifest domhandler@^5.0.2
+152 silly packumentCache full:https://registry.npmjs.org/domhandler cache-miss
+153 http fetch GET 200 https://registry.npmjs.org/boolbase 6ms (cache hit)
+154 silly packumentCache full:https://registry.npmjs.org/boolbase set size:2158 disposed:false
+155 silly fetch manifest domutils@^3.0.1
+156 silly packumentCache full:https://registry.npmjs.org/domutils cache-miss
+157 http fetch GET 200 https://registry.npmjs.org/css-what 8ms (cache hit)
+158 silly packumentCache full:https://registry.npmjs.org/css-what set size:69087 disposed:false
+159 silly fetch manifest nth-check@^2.0.1
+160 silly packumentCache full:https://registry.npmjs.org/nth-check cache-miss
+161 http fetch GET 200 https://registry.npmjs.org/domhandler 17ms (cache hit)
+162 silly packumentCache full:https://registry.npmjs.org/domhandler set size:73302 disposed:false
+163 http fetch GET 200 https://registry.npmjs.org/nth-check 35ms (cache hit)
+164 silly packumentCache full:https://registry.npmjs.org/nth-check set size:22975 disposed:false
+165 http fetch GET 200 https://registry.npmjs.org/domutils 48ms (cache hit)
+166 silly packumentCache full:https://registry.npmjs.org/domutils set size:94012 disposed:false
+167 silly placeDep node_modules/vscode-langservers-extracted boolbase@1.0.0 OK for: css-select@5.1.0 want: ^1.0.0
+168 silly placeDep node_modules/vscode-langservers-extracted css-what@6.1.0 OK for: css-select@5.1.0 want: ^6.1.0
+169 silly placeDep node_modules/vscode-langservers-extracted domhandler@5.0.3 OK for: css-select@5.1.0 want: ^5.0.2
+170 silly placeDep node_modules/vscode-langservers-extracted domutils@3.1.0 OK for: css-select@5.1.0 want: ^3.0.1
+171 silly placeDep node_modules/vscode-langservers-extracted nth-check@2.1.1 OK for: css-select@5.1.0 want: ^2.0.1
+172 silly fetch manifest domelementtype@^2.3.0
+173 silly packumentCache full:https://registry.npmjs.org/domelementtype cache-miss
+174 silly fetch manifest dom-serializer@^2.0.0
+175 silly packumentCache full:https://registry.npmjs.org/dom-serializer cache-miss
+176 silly fetch manifest domelementtype@^2.3.0
+177 silly packumentCache full:https://registry.npmjs.org/domelementtype cache-miss
+178 http fetch GET 200 https://registry.npmjs.org/domelementtype 18ms (cache hit)
+179 silly packumentCache full:https://registry.npmjs.org/domelementtype set size:30947 disposed:false
+180 http fetch GET 200 https://registry.npmjs.org/dom-serializer 18ms (cache hit)
+181 silly packumentCache full:https://registry.npmjs.org/dom-serializer set size:52163 disposed:false
+182 http fetch GET 200 https://registry.npmjs.org/domelementtype 19ms (cache hit)
+183 silly packumentCache full:https://registry.npmjs.org/domelementtype set size:30947 disposed:false
+184 silly packumentCache full:https://registry.npmjs.org/domelementtype dispose
+185 silly placeDep node_modules/vscode-langservers-extracted domelementtype@2.3.0 OK for: domhandler@5.0.3 want: ^2.3.0
+186 silly placeDep node_modules/vscode-langservers-extracted dom-serializer@2.0.0 OK for: domutils@3.1.0 want: ^2.0.0
+187 silly fetch manifest entities@^4.2.0
+188 silly packumentCache full:https://registry.npmjs.org/entities cache-miss
+189 http fetch GET 200 https://registry.npmjs.org/entities 4ms (cache hit)
+190 silly packumentCache full:https://registry.npmjs.org/entities set size:84558 disposed:false
+191 silly placeDep node_modules/vscode-langservers-extracted entities@4.5.0 OK for: dom-serializer@2.0.0 want: ^4.2.0
+192 silly placeDep node_modules/vscode-langservers-extracted/node_modules/vscode-markdown-languageservice vscode-jsonrpc@8.2.0 OK for: vscode-languageserver-protocol@3.17.5 want: 8.2.0
+193 silly reify moves {}
+194 silly audit bulk request {
+194 silly audit   'vscode-langservers-extracted': [ '4.10.0' ],
+194 silly audit   '@vscode/l10n': [ '0.0.18', '0.0.10' ],
+194 silly audit   'core-js': [ '3.39.0' ],
+194 silly audit   'jsonc-parser': [ '3.3.1' ],
+194 silly audit   'regenerator-runtime': [ '0.13.11' ],
+194 silly audit   'request-light': [ '0.7.0' ],
+194 silly audit   semver: [ '7.6.3' ],
+194 silly audit   typescript: [ '4.9.5' ],
+194 silly audit   'vscode-css-languageservice': [ '6.3.1' ],
+194 silly audit   'vscode-html-languageservice': [ '5.3.1' ],
+194 silly audit   'vscode-json-languageservice': [ '5.4.1' ],
+194 silly audit   'vscode-languageserver': [ '10.0.0-next.11' ],
+194 silly audit   'vscode-languageserver-textdocument': [ '1.0.12' ],
+194 silly audit   'vscode-languageserver-types': [ '3.17.5', '3.17.6-next.5' ],
+194 silly audit   'vscode-markdown-languageservice': [ '0.5.0-alpha.8' ],
+194 silly audit   'vscode-nls': [ '5.2.0' ],
+194 silly audit   'vscode-uri': [ '3.0.8' ],
+194 silly audit   'vscode-languageserver-protocol': [ '3.17.6-next.11', '3.17.5' ],
+194 silly audit   'vscode-jsonrpc': [ '9.0.0-next.6', '8.2.0' ],
+194 silly audit   'node-html-parser': [ '6.1.13' ],
+194 silly audit   picomatch: [ '2.3.1' ],
+194 silly audit   'css-select': [ '5.1.0' ],
+194 silly audit   he: [ '1.2.0' ],
+194 silly audit   boolbase: [ '1.0.0' ],
+194 silly audit   'css-what': [ '6.1.0' ],
+194 silly audit   domhandler: [ '5.0.3' ],
+194 silly audit   domutils: [ '3.1.0' ],
+194 silly audit   'nth-check': [ '2.1.1' ],
+194 silly audit   domelementtype: [ '2.3.0' ],
+194 silly audit   'dom-serializer': [ '2.0.0' ],
+194 silly audit   entities: [ '4.5.0' ]
+194 silly audit }
+195 silly tarball no local data for vscode-langservers-extracted@https://registry.npmjs.org/vscode-langservers-extracted/-/vscode-langservers-extracted-4.10.0.tgz. Extracting by manifest.
+196 silly tarball no local data for dom-serializer@https://registry.npmjs.org/dom-serializer/-/dom-serializer-2.0.0.tgz. Extracting by manifest.
+197 silly tarball no local data for entities@https://registry.npmjs.org/entities/-/entities-4.5.0.tgz. Extracting by manifest.
+198 silly tarball no local data for domutils@https://registry.npmjs.org/domutils/-/domutils-3.1.0.tgz. Extracting by manifest.
+199 silly tarball no local data for nth-check@https://registry.npmjs.org/nth-check/-/nth-check-2.1.1.tgz. Extracting by manifest.
+200 silly tarball no local data for domhandler@https://registry.npmjs.org/domhandler/-/domhandler-5.0.3.tgz. Extracting by manifest.
+201 silly tarball no local data for css-what@https://registry.npmjs.org/css-what/-/css-what-6.1.0.tgz. Extracting by manifest.
+202 silly tarball no local data for boolbase@https://registry.npmjs.org/boolbase/-/boolbase-1.0.0.tgz. Extracting by manifest.
+203 silly tarball no local data for he@https://registry.npmjs.org/he/-/he-1.2.0.tgz. Extracting by manifest.
+204 silly tarball no local data for css-select@https://registry.npmjs.org/css-select/-/css-select-5.1.0.tgz. Extracting by manifest.
+205 silly tarball no local data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz. Extracting by manifest.
+206 silly tarball no local data for node-html-parser@https://registry.npmjs.org/node-html-parser/-/node-html-parser-6.1.13.tgz. Extracting by manifest.
+207 silly tarball no local data for domelementtype@https://registry.npmjs.org/domelementtype/-/domelementtype-2.3.0.tgz. Extracting by manifest.
+208 silly tarball no local data for vscode-jsonrpc@https://registry.npmjs.org/vscode-jsonrpc/-/vscode-jsonrpc-9.0.0-next.6.tgz. Extracting by manifest.
+209 silly tarball no local data for vscode-languageserver-protocol@https://registry.npmjs.org/vscode-languageserver-protocol/-/vscode-languageserver-protocol-3.17.6-next.11.tgz. Extracting by manifest.
+210 silly tarball no local data for vscode-languageserver-types@https://registry.npmjs.org/vscode-languageserver-types/-/vscode-languageserver-types-3.17.6-next.5.tgz. Extracting by manifest.
+211 silly tarball no local data for vscode-nls@https://registry.npmjs.org/vscode-nls/-/vscode-nls-5.2.0.tgz. Extracting by manifest.
+212 silly tarball no local data for vscode-markdown-languageservice@https://registry.npmjs.org/vscode-markdown-languageservice/-/vscode-markdown-languageservice-0.5.0-alpha.8.tgz. Extracting by manifest.
+213 silly tarball no local data for vscode-uri@https://registry.npmjs.org/vscode-uri/-/vscode-uri-3.0.8.tgz. Extracting by manifest.
+214 silly tarball no local data for vscode-languageserver-protocol@https://registry.npmjs.org/vscode-languageserver-protocol/-/vscode-languageserver-protocol-3.17.5.tgz. Extracting by manifest.
+215 silly tarball no local data for @vscode/l10n@https://registry.npmjs.org/@vscode/l10n/-/l10n-0.0.10.tgz. Extracting by manifest.
+216 silly tarball no local data for vscode-jsonrpc@https://registry.npmjs.org/vscode-jsonrpc/-/vscode-jsonrpc-8.2.0.tgz. Extracting by manifest.
+217 silly tarball no local data for vscode-languageserver-types@https://registry.npmjs.org/vscode-languageserver-types/-/vscode-languageserver-types-3.17.5.tgz. Extracting by manifest.
+218 silly tarball no local data for vscode-languageserver-textdocument@https://registry.npmjs.org/vscode-languageserver-textdocument/-/vscode-languageserver-textdocument-1.0.12.tgz. Extracting by manifest.
+219 silly tarball no local data for vscode-languageserver@https://registry.npmjs.org/vscode-languageserver/-/vscode-languageserver-10.0.0-next.11.tgz. Extracting by manifest.
+220 silly tarball no local data for vscode-json-languageservice@https://registry.npmjs.org/vscode-json-languageservice/-/vscode-json-languageservice-5.4.1.tgz. Extracting by manifest.
+221 silly tarball no local data for vscode-html-languageservice@https://registry.npmjs.org/vscode-html-languageservice/-/vscode-html-languageservice-5.3.1.tgz. Extracting by manifest.
+222 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-4.9.5.tgz. Extracting by manifest.
+223 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-7.6.3.tgz. Extracting by manifest.
+224 silly tarball no local data for request-light@https://registry.npmjs.org/request-light/-/request-light-0.7.0.tgz. Extracting by manifest.
+225 silly tarball no local data for regenerator-runtime@https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz. Extracting by manifest.
+226 silly tarball no local data for jsonc-parser@https://registry.npmjs.org/jsonc-parser/-/jsonc-parser-3.3.1.tgz. Extracting by manifest.
+227 silly tarball no local data for core-js@https://registry.npmjs.org/core-js/-/core-js-3.39.0.tgz. Extracting by manifest.
+228 silly tarball no local data for @vscode/l10n@https://registry.npmjs.org/@vscode/l10n/-/l10n-0.0.18.tgz. Extracting by manifest.
+229 silly tarball no local data for vscode-css-languageservice@https://registry.npmjs.org/vscode-css-languageservice/-/vscode-css-languageservice-6.3.1.tgz. Extracting by manifest.
+230 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 3375ms
+231 silly audit report {}
+232 http fetch GET 200 https://registry.npmjs.org/boolbase/-/boolbase-1.0.0.tgz 2997ms (cache miss)
+233 http fetch GET 200 https://registry.npmjs.org/domelementtype/-/domelementtype-2.3.0.tgz 3004ms (cache miss)
+234 http fetch GET 200 https://registry.npmjs.org/request-light/-/request-light-0.7.0.tgz 3080ms (cache miss)
+235 http fetch GET 200 https://registry.npmjs.org/dom-serializer/-/dom-serializer-2.0.0.tgz 3573ms (cache miss)
+236 http fetch GET 200 https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz 3167ms (cache miss)
+237 http fetch GET 200 https://registry.npmjs.org/@vscode/l10n/-/l10n-0.0.18.tgz 3189ms (cache miss)
+238 http fetch GET 200 https://registry.npmjs.org/vscode-languageserver-textdocument/-/vscode-languageserver-textdocument-1.0.12.tgz 3226ms (cache miss)
+239 http fetch GET 200 https://registry.npmjs.org/domhandler/-/domhandler-5.0.3.tgz 3257ms (cache miss)
+240 http fetch GET 200 https://registry.npmjs.org/nth-check/-/nth-check-2.1.1.tgz 3298ms (cache miss)
+241 http fetch GET 200 https://registry.npmjs.org/css-what/-/css-what-6.1.0.tgz 3350ms (cache miss)
+242 http fetch GET 200 https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz 3359ms (cache miss)
+243 http fetch GET 200 https://registry.npmjs.org/he/-/he-1.2.0.tgz 3396ms (cache miss)
+244 http fetch GET 200 https://registry.npmjs.org/jsonc-parser/-/jsonc-parser-3.3.1.tgz 3527ms (cache miss)
+245 http fetch GET 200 https://registry.npmjs.org/node-html-parser/-/node-html-parser-6.1.13.tgz 3571ms (cache miss)
+246 http fetch GET 200 https://registry.npmjs.org/vscode-languageserver-types/-/vscode-languageserver-types-3.17.5.tgz 3570ms (cache miss)
+247 http fetch GET 200 https://registry.npmjs.org/vscode-uri/-/vscode-uri-3.0.8.tgz 3584ms (cache miss)
+248 http fetch GET 200 https://registry.npmjs.org/vscode-nls/-/vscode-nls-5.2.0.tgz 3587ms (cache miss)
+249 http fetch GET 200 https://registry.npmjs.org/vscode-languageserver-types/-/vscode-languageserver-types-3.17.6-next.5.tgz 3600ms (cache miss)
+250 http fetch GET 200 https://registry.npmjs.org/vscode-jsonrpc/-/vscode-jsonrpc-9.0.0-next.6.tgz 3640ms (cache miss)
+251 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-7.6.3.tgz 3657ms (cache miss)
+252 http fetch GET 200 https://registry.npmjs.org/domutils/-/domutils-3.1.0.tgz 4146ms (cache miss)
+253 http fetch GET 200 https://registry.npmjs.org/@vscode/l10n/-/l10n-0.0.10.tgz 3684ms (cache miss)
+254 http fetch GET 200 https://registry.npmjs.org/vscode-jsonrpc/-/vscode-jsonrpc-8.2.0.tgz 3694ms (cache miss)
+255 http fetch GET 200 https://registry.npmjs.org/vscode-markdown-languageservice/-/vscode-markdown-languageservice-0.5.0-alpha.8.tgz 3786ms (cache miss)
+256 http fetch GET 200 https://registry.npmjs.org/vscode-languageserver/-/vscode-languageserver-10.0.0-next.11.tgz 3779ms (cache miss)
+257 http fetch GET 200 https://registry.npmjs.org/vscode-languageserver-protocol/-/vscode-languageserver-protocol-3.17.5.tgz 3801ms (cache miss)
+258 http fetch GET 200 https://registry.npmjs.org/entities/-/entities-4.5.0.tgz 4264ms (cache miss)
+259 http fetch GET 200 https://registry.npmjs.org/vscode-languageserver-protocol/-/vscode-languageserver-protocol-3.17.6-next.11.tgz 3823ms (cache miss)
+260 http fetch GET 200 https://registry.npmjs.org/css-select/-/css-select-5.1.0.tgz 3840ms (cache miss)
+261 http fetch GET 200 https://registry.npmjs.org/vscode-json-languageservice/-/vscode-json-languageservice-5.4.1.tgz 3881ms (cache miss)
+262 http fetch GET 200 https://registry.npmjs.org/vscode-html-languageservice/-/vscode-html-languageservice-5.3.1.tgz 4120ms (cache miss)
+263 http fetch GET 200 https://registry.npmjs.org/vscode-langservers-extracted/-/vscode-langservers-extracted-4.10.0.tgz 4621ms (cache miss)
+264 http fetch GET 200 https://registry.npmjs.org/vscode-css-languageservice/-/vscode-css-languageservice-6.3.1.tgz 4206ms (cache miss)
+265 http fetch GET 200 https://registry.npmjs.org/core-js/-/core-js-3.39.0.tgz 5902ms (cache miss)
+266 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-4.9.5.tgz 5976ms (cache miss)
+267 info run core-js@3.39.0 postinstall node_modules/vscode-langservers-extracted/node_modules/core-js node -e "try{require('./postinstall')}catch(e){}"
+268 info run core-js@3.39.0 postinstall { code: 0, signal: null }
+269 silly ADD node_modules/vscode-langservers-extracted
+270 silly ADD node_modules/vscode-langservers-extracted/node_modules/entities
+271 silly ADD node_modules/vscode-langservers-extracted/node_modules/dom-serializer
+272 silly ADD node_modules/vscode-langservers-extracted/node_modules/domelementtype
+273 silly ADD node_modules/vscode-langservers-extracted/node_modules/nth-check
+274 silly ADD node_modules/vscode-langservers-extracted/node_modules/domutils
+275 silly ADD node_modules/vscode-langservers-extracted/node_modules/domhandler
+276 silly ADD node_modules/vscode-langservers-extracted/node_modules/css-what
+277 silly ADD node_modules/vscode-langservers-extracted/node_modules/boolbase
+278 silly ADD node_modules/vscode-langservers-extracted/node_modules/he
+279 silly ADD node_modules/vscode-langservers-extracted/node_modules/css-select
+280 silly ADD node_modules/vscode-langservers-extracted/node_modules/picomatch
+281 silly ADD node_modules/vscode-langservers-extracted/node_modules/node-html-parser
+282 silly ADD node_modules/vscode-langservers-extracted/node_modules/vscode-jsonrpc
+283 silly ADD node_modules/vscode-langservers-extracted/node_modules/vscode-languageserver-protocol
+284 silly ADD node_modules/vscode-langservers-extracted/node_modules/vscode-languageserver-protocol/node_modules/vscode-languageserver-types
+285 silly ADD node_modules/vscode-langservers-extracted/node_modules/vscode-uri
+286 silly ADD node_modules/vscode-langservers-extracted/node_modules/vscode-nls
+287 silly ADD node_modules/vscode-langservers-extracted/node_modules/vscode-markdown-languageservice
+288 silly ADD node_modules/vscode-langservers-extracted/node_modules/vscode-markdown-languageservice/node_modules/vscode-jsonrpc
+289 silly ADD node_modules/vscode-langservers-extracted/node_modules/vscode-markdown-languageservice/node_modules/vscode-languageserver-protocol
+290 silly ADD node_modules/vscode-langservers-extracted/node_modules/vscode-markdown-languageservice/node_modules/@vscode/l10n
+291 silly ADD node_modules/vscode-langservers-extracted/node_modules/vscode-languageserver-types
+292 silly ADD node_modules/vscode-langservers-extracted/node_modules/vscode-languageserver-textdocument
+293 silly ADD node_modules/vscode-langservers-extracted/node_modules/vscode-languageserver
+294 silly ADD node_modules/vscode-langservers-extracted/node_modules/vscode-json-languageservice
+295 silly ADD node_modules/vscode-langservers-extracted/node_modules/vscode-html-languageservice
+296 silly ADD node_modules/vscode-langservers-extracted/node_modules/vscode-css-languageservice
+297 silly ADD node_modules/vscode-langservers-extracted/node_modules/typescript
+298 silly ADD node_modules/vscode-langservers-extracted/node_modules/semver
+299 silly ADD node_modules/vscode-langservers-extracted/node_modules/request-light
+300 silly ADD node_modules/vscode-langservers-extracted/node_modules/regenerator-runtime
+301 silly ADD node_modules/vscode-langservers-extracted/node_modules/jsonc-parser
+302 silly ADD node_modules/vscode-langservers-extracted/node_modules/core-js
+303 silly ADD node_modules/vscode-langservers-extracted/node_modules/@vscode/l10n
+304 verbose cwd /home/ditya/.local/share/nvim/mason/staging/json-lsp
+305 verbose os Linux 5.15.133.1-microsoft-standard-WSL2
+306 verbose node v22.11.0
+307 verbose npm  v10.9.0
+308 verbose exit 0
+309 info ok

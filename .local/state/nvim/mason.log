@@ -1,0 +1,56 @@
+[INFO  Wed Nov 20 19:22:44 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=stylua) {}
+[INFO  Wed Nov 20 19:22:44 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=shfmt) {}
+[INFO  Wed Nov 20 19:22:44 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=shellcheck) {}
+[INFO  Wed Nov 20 19:22:44 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=flake8) {}
+[ERROR Wed Nov 20 19:22:55 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=flake8) error=spawn: python3 failed with exit code 1 and signal 0. 
+[INFO  Wed Nov 20 19:22:55 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=shfmt)
+[INFO  Wed Nov 20 19:22:56 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=shellcheck)
+[INFO  Wed Nov 20 19:22:56 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=stylua)
+[INFO  Wed Nov 20 19:24:48 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=flake8) {}
+[INFO  Wed Nov 20 19:24:48 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=pyright) {}
+[INFO  Wed Nov 20 19:24:48 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=json-lsp) {}
+[INFO  Wed Nov 20 19:24:48 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=lua-language-server) {}
+[INFO  Wed Nov 20 19:24:48 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=vtsls) {}
+[ERROR Wed Nov 20 19:24:48 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=flake8) error=spawn: python3 failed with exit code 1 and signal 0. 
+[INFO  Wed Nov 20 19:24:51 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=lua-language-server)
+[ERROR Wed Nov 20 19:24:51 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=vtsls) error="Installation was aborted."
+[ERROR Wed Nov 20 19:24:51 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=json-lsp) error="Installation was aborted."
+[ERROR Wed Nov 20 19:24:51 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=pyright) error="Installation was aborted."
+[INFO  Wed Nov 20 19:25:02 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=flake8) {}
+[INFO  Wed Nov 20 19:25:02 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=vtsls) {}
+[INFO  Wed Nov 20 19:25:02 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=json-lsp) {}
+[INFO  Wed Nov 20 19:25:02 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=pyright) {}
+[ERROR Wed Nov 20 19:25:03 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=flake8) error=spawn: python3 failed with exit code 1 and signal 0. 
+[INFO  Wed Nov 20 19:25:14 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=pyright)
+[ERROR Wed Nov 20 19:25:33 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=vtsls) error="Installation was aborted."
+[ERROR Wed Nov 20 19:25:33 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=json-lsp) error="Installation was aborted."
+[INFO  Wed Nov 20 19:30:24 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=flake8) {}
+[INFO  Wed Nov 20 19:30:24 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=vtsls) {}
+[INFO  Wed Nov 20 19:30:24 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=json-lsp) {}
+[ERROR Wed Nov 20 19:30:24 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=flake8) error=spawn: python3 failed with exit code 1 and signal 0. 
+[ERROR Wed Nov 20 19:31:11 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=vtsls) error="Installation was aborted."
+[ERROR Wed Nov 20 19:31:11 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=json-lsp) error="Installation was aborted."
+[INFO  Wed Nov 20 19:32:06 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=flake8) {}
+[INFO  Wed Nov 20 19:32:06 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=vtsls) {}
+[INFO  Wed Nov 20 19:32:06 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=json-lsp) {}
+[ERROR Wed Nov 20 19:32:07 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=flake8) error=spawn: python3 failed with exit code 1 and signal 0. 
+[INFO  Wed Nov 20 19:32:13 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=vtsls)
+[INFO  Wed Nov 20 19:32:16 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=json-lsp)
+[INFO  Wed Nov 20 19:33:07 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=flake8) {}
+[ERROR Wed Nov 20 19:33:07 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=flake8) error=spawn: python3 failed with exit code 1 and signal 0. 
+[INFO  Wed Nov 20 19:36:32 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=flake8) {}
+[ERROR Wed Nov 20 19:36:44 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=flake8) error="Installation was aborted."
+[INFO  Wed Nov 20 19:37:35 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=flake8) {}
+[ERROR Wed Nov 20 19:37:36 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=flake8) error=spawn: python3 failed with exit code 1 and signal 0. 
+[INFO  Wed Nov 20 19:38:39 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=flake8) {}
+[ERROR Wed Nov 20 19:39:08 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=flake8) error=spawn: python3 failed with exit code 1 and signal 0. 
+[INFO  Wed Nov 20 19:40:18 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=flake8) {}
+[ERROR Wed Nov 20 19:40:18 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=flake8) error=spawn: python3 failed with exit code 1 and signal 0. 
+[INFO  Wed Nov 20 19:41:00 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=flake8) {}
+[ERROR Wed Nov 20 19:41:01 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=flake8) error=spawn: python3 failed with exit code 1 and signal 0. 
+[INFO  Wed Nov 20 19:42:09 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=flake8) {}
+[ERROR Wed Nov 20 19:42:09 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=flake8) error=spawn: python3 failed with exit code 1 and signal 0. 
+[INFO  Wed Nov 20 19:48:01 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=flake8) {}
+[ERROR Wed Nov 20 19:48:01 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=flake8) error=spawn: python3 failed with exit code 1 and signal 0. 
+[INFO  Wed Nov 20 19:49:40 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=flake8) {}
+[ERROR Wed Nov 20 19:49:41 2024] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=flake8) error=spawn: python3 failed with exit code 1 and signal 0. 

@@ -1,0 +1,29 @@
+0 verbose cli /home/ditya/.nvm/versions/node/v22.11.0/bin/node /home/ditya/.nvm/versions/node/v22.11.0/bin/npm
+1 info using npm@10.9.0
+2 info using node@v22.11.0
+3 silly config load:file:/home/ditya/.nvm/versions/node/v22.11.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/ditya/.local/share/nvim/mason/staging/json-lsp/.npmrc
+5 silly config load:file:/home/ditya/.npmrc
+6 silly config load:file:/home/ditya/.nvm/versions/node/v22.11.0/etc/npmrc
+7 verbose title npm init
+8 verbose argv "init" "--yes" "--scope" "mason"
+9 verbose logfile logs-max:10 dir:/home/ditya/.npm/_logs/2024-11-20T12_32_06_923Z-
+10 verbose logfile /home/ditya/.npm/_logs/2024-11-20T12_32_06_923Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly package data {
+13 silly package data   name: '@mason/json-lsp',
+13 silly package data   version: '1.0.0',
+13 silly package data   main: 'index.js',
+13 silly package data   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+13 silly package data   keywords: [],
+13 silly package data   author: '',
+13 silly package data   license: 'ISC',
+13 silly package data   description: ''
+13 silly package data }
+14 verbose cwd /home/ditya/.local/share/nvim/mason/staging/json-lsp
+15 verbose os Linux 5.15.133.1-microsoft-standard-WSL2
+16 verbose node v22.11.0
+17 verbose npm  v10.9.0
+18 verbose exit 0
+19 info ok

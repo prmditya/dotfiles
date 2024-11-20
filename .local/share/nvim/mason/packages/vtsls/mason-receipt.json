@@ -1,0 +1,1 @@
+{"primary_source":{"type":"registry+v1","id":"pkg:npm\/%40vtsls\/language-server@0.2.6"},"secondary_sources":[],"schema_version":"1.1","name":"vtsls","links":{"opt":{},"bin":{"vtsls":"node_modules\/.bin\/vtsls"},"share":{"mason-schemas\/lsp\/vtsls.json":"mason-schemas\/lsp.json"}},"metrics":{"completion_time":1732105933647,"start_time":1732105926823}}

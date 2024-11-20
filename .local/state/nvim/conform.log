@@ -1,0 +1,24 @@
+2024-11-20 19:33:13[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: error occurred while creating ast: unexpected token `,`. (starting from line 223, character 66 and ending on line 223, character 67)
+additional information: expected 'end'
+
+2024-11-20 19:33:22[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: error occurred while creating ast: unexpected token `=`. (starting from line 224, character 26 and ending on line 224, character 27)
+additional information: expected 'end'
+
+2024-11-20 19:44:17[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: error occurred while creating ast: unexpected token `{`. (starting from line 236, character 3 and ending on line 236, character 4)
+additional information: expected '}'
+
+2024-11-20 19:44:29[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: error occurred while creating ast: unexpected token `{`. (starting from line 236, character 3 and ending on line 236, character 4)
+additional information: expected '}'
+
+2024-11-20 19:45:15[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: error occurred while creating ast: unexpected token `{`. (starting from line 239, character 3 and ending on line 239, character 4)
+additional information: expected '}'
+
+2024-11-20 19:45:38[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: error occurred while creating ast: unexpected token `{`. (starting from line 239, character 3 and ending on line 239, character 4)
+additional information: expected '}'
+
+2024-11-20 19:48:57[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: error occurred while creating ast: unexpected token `,`. (starting from line 219, character 42 and ending on line 219, character 43)
+additional information: expected 'end'
+
+2024-11-20 19:49:01[ERROR] Formatter 'stylua' error: error: could not format from stdin: failed to format from stdin: error parsing: error occurred while creating ast: unexpected token `,`. (starting from line 219, character 42 and ending on line 219, character 43)
+additional information: expected 'end'
+
