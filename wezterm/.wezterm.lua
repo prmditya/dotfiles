@@ -3,23 +3,28 @@
 local wezterm = require("wezterm")
 
 return {
-	-- Konfigurasi font
+	-- Font Config
 	font = wezterm.font("CaskaydiaCove Nerd Font"),
 	font_size = 11.0, -- Sesuaikan dengan preferensi Anda
 
-	-- Konfigurasi warna (Gruvbox)
+	-- Theme Config (Gruvbox)
 	color_scheme = "Gruvbox dark, hard (base16)", -- Atau "Gruvbox light, hard (base16)" untuk tema terang
 
-	-- Pengaturan umum terminal
+	-- General Terminal Config
 	adjust_window_size_when_changing_font_size = false,
 	enable_tab_bar = true,
 	enable_wayland = true,
 	window_background_opacity = 0.5,
 	window_decorations = "NONE",
 
-	-- Ukuran baris tab
-	tab_bar_at_bottom = false,
-	use_fancy_tab_bar = true,
+	-- Tab
 	hide_tab_bar_if_only_one_tab = true,
+
+	window_padding = {
+	  left = 10,
+	  right = 10,
+	  top = 10,
+	  bottom = 0,
+	}	
 }
 
