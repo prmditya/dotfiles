@@ -1,0 +1,45 @@
+# OS generated files
+.DS_Store
+.Trash/
+Thumbs.db
+
+# Oh My Zsh history and cache
+.zsh_history # SANGAT PENTING: Jangan masukkan history shell ke Git!
+.p10k.zsh-cached-*.zsh # Cache Powerlevel10k
+.cache/ # Folder cache umum
+.zcompdump* # Cache autocompletion Zsh
+
+# VS Code specific
+.vscode/ # Folder ini sering berisi settings.json local workspace, extensions, atau cache
+.vscode-server/ # Remote development server (jika pakai)
+
+# Node.js related (if you have Node.js configs)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python related (if you have Python configs)
+__pycache__/
+.venv/
+venv/
+*.pyc
+
+# Rust related (if you have Rust configs)
+target/
+
+# Various common IDE/editor files
+*.swp
+*.swo
+*~
+*.bak
+.idea/ # IntelliJ IDEA
+.project # Eclipse
+
+# Rclone cache and logs
+.cache/rclone/ # Cache VFS Rclone
+.config/rclone/rclone.conf # SANGAT PENTING: File konfigurasi Rclone berisi token akses sensitif!
+/var/log/rclone.log # Log Rclone
+
+# Any temporary files you might create
+*.tmp
+*.temp
