@@ -1,0 +1,121 @@
+{
+  // Fonts
+  "editor.fontFamily": "CaskaydiaCove Nerd Font",
+  "editor.lineNumbers": "relative",
+  "editor.fontWeight": "bold",
+  "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
+  "editor.fontSize": 14,
+  "editor.indentSize": "tabSize",
+  "editor.letterSpacing": 0.4,
+  "editor.lineHeight": 1.4,
+  "editor.tabSize": 2,
+
+  // UI
+  "workbench.colorTheme": "Gruvbox Dark Medium",
+  "breadcrumbs.enabled": false,
+  "editor.minimap.enabled": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.mouseWheelZoom": true,
+  "window.zoomLevel": 0.2,
+  "material-icon-theme.folders.theme": "specific",
+  "workbench.startupEditor": "none",
+  "workbench.activityBar.location": "bottom",
+  "notebook.output.scrolling": true,
+  "notebook.output.textLineLimit": 15,
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+
+  // APC
+  "apc.font.family": "CaskaydiaCove Nerd Font",
+  "apc.menubar.compact": false,
+  "apc.monospace.font.family": "CaskaydiaCove Nerd Font",
+  "apc.activityBar": {
+    "position": "bottom",
+    "size": 28
+  },
+  "apc.header": {
+    "default": 25
+  },
+  "apc.statusBar": {
+    "position": "editor-bottom",
+    "fontSize": 12,
+    "height": 28
+  },
+  "apc.listRow": {
+    "lists": [
+      "customview-tree",
+      "results",
+      "open-editors",
+      "explorer-folders-view",
+      "outline-tree",
+      "scm-view",
+      "debug-view-content",
+      "debug-breakpoints",
+      "tree"
+    ],
+    "height": 20
+  },
+
+  // Formatter
+  "editor.formatOnSave": true,
+  "files.autoSave": "onWindowChange",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // VIM
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [">"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      "before": ["<"],
+      "commands": ["editor.action.outdentLines"]
+    },
+    {
+      "before": ["p"],
+      "after": ["p", "g", "v", "y"]
+    }
+  ],
+  "pythonIndent.trimLinesWithOnlyWhitespace": true,
+  "python.createEnvironment.trigger": "off",
+
+  // PROLOG
+  "prolog.executablePath": "C:\\Program Files\\swipl\\bin\\swipl.exe",
+  "prolog.linter.run": "onType",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "workbench.sideBar.location": "right",
+  "window.titleBarStyle": "native",
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  "arduino.window.autoScale": true,
+  "arduino.compile.verbose": true,
+  "arduino.compile.warnings": "None",
+  "arduino.upload.verbose": true,
+  "arduino.upload.verify": false,
+  "arduino.sketchbook.showAllFiles": false
+}
