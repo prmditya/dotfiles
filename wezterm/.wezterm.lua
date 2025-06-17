@@ -14,17 +14,16 @@ return {
 	adjust_window_size_when_changing_font_size = false,
 	enable_tab_bar = true,
 	enable_wayland = true,
-	window_background_opacity = 0.5,
+	window_background_opacity = 0.8,
 	window_decorations = "NONE",
 
 	-- Tab
 	hide_tab_bar_if_only_one_tab = true,
 
 	window_padding = {
-	  left = 10,
-	  right = 10,
-	  top = 10,
-	  bottom = 0,
-	}	
+		left = 10,
+		right = 10,
+		top = 10,
+		bottom = 0,
+	},
 }
-
