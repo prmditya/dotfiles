@@ -134,3 +134,5 @@ fi
 
 export PATH=$PATH:/home/ditya/.spicetify
 export PATH="/usr/lib/zed:$PATH"
+
+fastfetch
