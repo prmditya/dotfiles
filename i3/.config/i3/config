@@ -9,7 +9,9 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 1
+
+gaps inner 5
 
 set $mod Mod4
 # set $mod Mod1
@@ -17,11 +19,12 @@ set $mod Mod4
 exec --no-startup-id picom --config ~/.config/picom.conf
 exec --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/mbeek.jpg
 exec --no-startup-id xrdb -merge ~/.Xresources
+exec --no-startup-id redshift -c ~/.config/redshift/redshift.conf
 exec_always --no-startup-id setxkbmap -option ctrl:nocaps
 
 # kill any hanging polybar processes
 exec_always killall polybar
-exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh
+exec_always --no-startup-id $HOME/.config/polybar/launch_polybar.sh
 
 bindsym Print exec maim "/home/$USER/Pictures/$(date).jpg"
 bindsym $mod+Print exec maim --window $(xdotool getactivewindow) "/home/$USER/Pictures/$(date).jpg"
@@ -200,7 +203,7 @@ set $gruv_bg        #282828
 set $gruv_fg        #ebdbb2
 set $gruv_red       #cc241d
 set $gruv_green     #98971a
-set $gruv_yellow    #d79921
+set $gruv_yellow    #d77921
 set $gruv_blue      #458588
 set $gruv_purple    #b16286
 set $gruv_aqua      #689d6a
@@ -210,9 +213,9 @@ set $gruv_dark_gray #928374
 
 # --- Client Window Colors (Using Gruvbox Palette) ---
 # target                 title-text bg         text      indicator    border
-client.focused           $gruv_fg   $gruv_blue $gruv_bg  $gruv_blue  $gruv_blue
-client.focused_inactive  $gruv_bg   $gruv_bg   $gruv_fg  $gruv_blue  $gruv_bg
-client.unfocused         $gruv_bg   $gruv_bg   $gruv_fg  $gruv_blue  $gruv_bg
+client.focused           $gruv_fg   $gruv_yellow $gruv_bg  $gruv_yellow  $gruv_yellow
+client.focused_inactive  $gruv_bg   $gruv_bg   $gruv_fg  $gruv_yellow  $gruv_bg
+client.unfocused         $gruv_bg   $gruv_bg   $gruv_fg  $gruv_yellow  $gruv_bg
 client.urgent            $gruv_orange $gruv_bg $gruv_fg $gruv_orange $gruv_orange
-client.placeholder       $gruv_bg   $gruv_bg   $gruv_fg  $gruv_blue  $gruv_bg
+client.placeholder       $gruv_bg   $gruv_bg   $gruv_fg  $gruv_yellow  $gruv_bg
 client.background        $gruv_bg_hard
