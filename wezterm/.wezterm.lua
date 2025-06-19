@@ -14,7 +14,7 @@ return {
 	adjust_window_size_when_changing_font_size = false,
 	enable_tab_bar = true,
 	window_decorations = "NONE",
-	window_background_opacity = 0.9,
+	window_background_opacity = 0.8,
 
 	-- Tab
 	hide_tab_bar_if_only_one_tab = true,
