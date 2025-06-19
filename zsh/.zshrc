@@ -45,3 +45,4 @@ source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 fastfetch
 
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
+source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
