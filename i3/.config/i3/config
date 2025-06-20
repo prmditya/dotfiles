@@ -12,7 +12,7 @@
 for_window [class="^.*"] border pixel 1
 for_window [class="pavucontrol"] floating enable
 
-gaps inner 5
+gaps inner 10
 
 set $mod Mod4
 # set $mod Mod1
