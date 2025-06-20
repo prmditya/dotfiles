@@ -4,17 +4,13 @@
 return {
   {
     "folke/snacks.nvim",
-    priority = 1000, -- Ensures it loads early
-    lazy = false, -- Ensures it loads at startup
+    priority = 1000,
+    lazy = false,
     opts = {
       dashboard = {
         enabled = true,
-        open_on_startup = true, -- Optional: to open automatically when Neovim starts without opening files
+        open_on_startup = true,
         preset = {
-          -- Using vim.split to properly parse the multi-line string into a table of lines
-          -- Note: If the complex block characters still don't display correctly,
-          -- it's usually a terminal font rendering issue, not a Neovim config issue.
-          -- You might need to adjust your terminal's font or use a simpler ASCII art.
           header = [[
 ███╗   ██╗███████╗ ██████╗ ██╗   ██╗██╗███╗   ███╗
 ████╗  ██║██╔════╝██╔═══██╗██║   ██║██║████╗ ████║
