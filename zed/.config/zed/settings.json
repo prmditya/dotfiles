@@ -7,6 +7,13 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "language_models": {
+    "copilot_chat": {
+      "api_url": "https://api.githubcopilot.com/chat/completions",
+      "auth_url": "https://api.github.com/copilot_internal/v2/token",
+      "models_url": "https://api.githubcopilot.com/models"
+    }
+  },
   "agent": {
     "model_parameters": [],
     "default_model": {
@@ -21,7 +28,7 @@
   "icon_theme": "Material Icon Theme",
   "vim_mode": true,
   "ui_font_size": 14,
-  "buffer_font_size": 14,
+  "buffer_font_size": 16.0,
   "buffer_font_weight": 600,
   "buffer_line_height": {
     "custom": 1.4
@@ -33,7 +40,7 @@
     "dark": "Gruvbox Dark Soft"
   },
 
-  "ui_font_family": "CaskaydiaCove Nerd Font",
-  "buffer_font_family": "CaskaydiaCove Nerd Font",
+  "ui_font_family": "CaskaydiaCove Nerd Font Propo",
+  "buffer_font_family": "CaskaydiaCove Nerd Font Propo",
   "relative_line_numbers": true
 }
