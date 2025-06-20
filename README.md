@@ -1,5 +1,11 @@
 # My Dotfiles
 
+<div align=center>
+  
+![screenshot](https://github.com/user-attachments/assets/77d65307-c884-4e81-8585-24c3371a923b)
+
+</div>
+
 Welcome to my dotfiles repository! Here, I store and manage my personal configurations for my Linux environment (specifically Arch Linux) using [GNU Stow](https://www.gnu.org/software/stow/) and Git.
 
 The primary goal of this repository is to facilitate quick setup of my development environment on new machines and maintain consistency across all my devices.
