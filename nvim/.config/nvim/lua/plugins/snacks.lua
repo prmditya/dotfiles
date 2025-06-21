@@ -29,11 +29,11 @@ D A S H B O A R D
       explorer = { enabled = true },
       input = { enabled = true },
       notifier = { enabled = true },
-      picker = { enabled = true },
+      picker = { enabled = true, keys = {} },
       quickfile = { enabled = true },
       scope = { enabled = true },
       scroll = { enabled = true },
-      image = { enabled = false }, -- Based on your health check output
+      image = { enabled = true }, -- Based on your health check output
       statuscolumn = { enabled = false }, -- Based on your health check output
     },
   },
