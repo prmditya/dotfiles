@@ -29,7 +29,7 @@ D A S H B O A R D
       explorer = { enabled = true },
       input = { enabled = true },
       notifier = { enabled = true },
-      picker = { enabled = true, keys = {} },
+      picker = { enabled = true, ignored = true, hidden = true, keys = {} },
       quickfile = { enabled = true },
       scope = { enabled = true },
       scroll = { enabled = true },
