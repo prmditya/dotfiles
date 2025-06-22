@@ -40,7 +40,7 @@
     "dark": "Gruvbox Dark Soft"
   },
 
-  "ui_font_family": "CaskaydiaCove Nerd Font Propo",
-  "buffer_font_family": "CaskaydiaCove Nerd Font Propo",
+  "ui_font_family": "JetBrains Mono",
+  "buffer_font_family": "JetBrains Mono",
   "relative_line_numbers": true
 }
