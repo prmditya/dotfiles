@@ -18,12 +18,12 @@
     "model_parameters": [],
     "default_model": {
       "provider": "copilot_chat",
-      "model": "claude-3.7-sonnet"
+      "model": "gpt-4.1"
     },
     "version": "2"
   },
   "project_panel": {
-    "dock": "right"
+    "dock": "left"
   },
   "icon_theme": "Material Icon Theme",
   "vim_mode": true,
