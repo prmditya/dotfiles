@@ -15,7 +15,7 @@ return {
 	enable_tab_bar = true,
 	enable_wayland = false,
 	window_decorations = "NONE",
-	window_background_opacity = 0.7,
+	window_background_opacity = 0.8,
 
 	-- Tab
 	hide_tab_bar_if_only_one_tab = true,

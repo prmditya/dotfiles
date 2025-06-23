@@ -6,7 +6,7 @@
 
     "modules-left": ["hyprland/workspaces", "custom/separator", "hyprland/window"],
     "modules-center": ["clock"],
-    "modules-right": ["temperature", "custom/separator", "wireplumber", "custom/separator", "battery", "custom/separator", "backlight", "custom/separator", "network",  "bluetooth", "custom/separator", "tray"],
+    "modules-right": ["temperature", "custom/separator", "wireplumber", "custom/separator", "battery", "custom/separator", "backlight", "custom/separator", "tray"],
 
     "custom/separator": {
         "format": " | ",

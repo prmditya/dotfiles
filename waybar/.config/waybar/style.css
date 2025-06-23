@@ -1,7 +1,7 @@
 /* --- Gruvbox Color Palette --- */
 @define-color foreground #ebdbb2; /* Gruvbox foreground */
 @define-color foreground-inactive #928374; /* Gruvbox dark gray for inactive elements */
-@define-color background rgba(40,40,40,0.7); /* Gruvbox background */
+@define-color background rgba(40,40,40,0.8); /* Gruvbox background */
 @define-color accent #D79921; /* Gruvbox yellow/orange - good for active highlight */
 @define-color alert #CC241D; /* Gruvbox red - good for urgent */
 @define-color blue #458588; /* Gruvbox blue */
@@ -61,9 +61,6 @@ window#waybar {
 }
 
 /* Styling for EMPTY workspaces (no windows) */
-#workspaces button.empty {
-  color: @foreground-inactive; /* Use inactive foreground for empty workspaces */
-}
 
 /* Hover effect for all workspace buttons */
 #workspaces button:hover {
