@@ -1,39 +1,13 @@
 # Wofi configuration file
-# This replaces the 'configuration' block from Rofi's config.rasi
-
-# --- General Settings ---
-# Wofi's modes are typically specified when you launch it (e.g., wofi --show drun)
-# However, you can configure display names for them here.
-combi_display= 🖥️ All
-run_display= 🏃 Run
-window_display= 🪟 Window
-
-# Icon theme and display
-icon_theme=Oranchelo
 show_icons=true
-
-# Terminal for launching applications
-terminal=wezterm
-
-# Format for displaying applications in drun mode
-drun_format={icon} {name}
-
-# History settings
-history=false # Corresponds to Rofi's disable-history: false (i.e., enable history by default in Wofi, then disable it)
-
-# Scrollbar visibility
+allow_images=true
+insensitive=false
+term=wezterm
+show_all=true
+gtk_dark=false
+lines=6
+line_wrap=word
+prompt= Search
+width=500
+location=center
 hide_scroll=true
-
-# Sidebar mode (modes displayed as tabs)
-# Wofi's default behavior when launching `wofi --show combi` with `mode=sidebar`
-# is to show the modes on the side.
-mode=sidebar
-
-# --- Positioning ---
-# Rofi's 'location: 0' usually means center.
-# Wofi handles positioning primarily through its `--geometry` flag or CSS.
-# You can set it in the Wofi config, but it's often more flexible to use geometry.
-# Wofi config can use `anchor=center` or `x=0` `y=0` etc.
-# For a centered look like Rofi's location 0:
-# anchor=center
-# This will center the window. If you want it offset, you can add x/y margins.
