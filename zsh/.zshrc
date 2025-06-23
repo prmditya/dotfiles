@@ -28,7 +28,7 @@ alias ls='lsd'
 alias ll='lsd -l'
 alias lla='lsd -al'
 alias lzgit='lazygit'
-alias vim=nvim
+alias vim='nvim'
 
 # fzf based aliases
 
