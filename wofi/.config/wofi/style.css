@@ -1,0 +1,88 @@
+/* --- Gruvbox Color Palette (Dark Hard) --- */
+@define-color gruv_bg_hard #1d2021;
+@define-color gruv_bg #282828;
+@define-color gruv_fg #ebdbb2;
+@define-color gruv_red #cc241d;
+@define-color gruv_green #98971a;
+@define-color gruv_yellow #d77921;
+@define-color gruv_blue #458588;
+@define-color gruv_purple #b16286;
+@define-color gruv_aqua #689d6a;
+@define-color gruv_orange #d65d0e;
+@define-color gruv_gray #a89984;
+@define-color gruv_dark_gray #928374;
+
+/* --- General Wofi Window --- */
+window {
+  font-family:
+    "CaskaydiaCove Nerd Font Mono", sans-serif; /* Your preferred font */
+  font-size: 14px; /* Adjust font size as needed */
+  background-color: @gruv_bg;
+  color: @gruv_fg;
+  border: 2px solid @gruv_yellow; /* Border around the entire wofi window */
+  border-radius: 5px; /* Rounded corners for the window */
+}
+
+/* --- Input Field --- */
+#input {
+  background-color: @gruv_bg_hard;
+  color: @gruv_fg;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 3px;
+}
+
+/* --- Inner Scrollable Area (where results are listed) --- */
+#outer-box {
+  padding: 5px;
+  margin: 5px; /* Spacing around the results list */
+}
+
+/* --- Each Entry (application/window) --- */
+#entry {
+  padding: 8px 10px;
+  margin: 2px 0;
+  border-radius: 3px;
+}
+
+/* --- Selected/Active Entry --- */
+#entry:selected {
+  background-color: @gruv_yellow; /* Accent color for selection */
+  color: @gruv_bg; /* Text color for selected item */
+}
+
+/* --- Icons in Entries --- */
+#entry image {
+  margin-right: 10px;
+  /* Adjust icon size if needed */
+  /* min-height: 1.2em; */
+  /* min-width: 1.2em; */
+}
+
+/* --- Scrollbar --- */
+#scroll {
+  /* Since hide_scroll=true, this might not be visible. */
+  /* If you change hide_scroll=false, you can style it here. */
+}
+
+/* --- Mode Buttons (for sidebar mode) --- */
+#mode-box {
+  background-color: @gruv_bg_hard;
+  border-right: 1px solid @gruv_dark_gray; /* Separator for sidebar */
+}
+
+#mode-box button {
+  padding: 10px 15px;
+  margin: 0 0 2px 0;
+  background-color: transparent;
+  color: @gruv_fg;
+  border: none;
+  border-radius: 0;
+}
+
+#mode-box button:selected {
+  background-color: @gruv_yellow; /* Selected mode button */
+  color: @gruv_bg;
+  border-left: 3px solid @gruv_yellow; /* Highlight for active mode */
+}

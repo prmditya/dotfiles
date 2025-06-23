@@ -1,0 +1,95 @@
+/* --- Gruvbox Color Palette --- */
+@define-color foreground #ebdbb2; /* Gruvbox foreground */
+@define-color foreground-inactive #928374; /* Gruvbox dark gray for inactive elements */
+@define-color background #282828; /* Gruvbox background */
+@define-color accent #D79921; /* Gruvbox yellow/orange - good for active highlight */
+@define-color alert #CC241D; /* Gruvbox red - good for urgent */
+@define-color blue #458588; /* Gruvbox blue */
+@define-color orange #d65d0e; /* Gruvbox orange (if you want a different shade for active) */
+
+/* --- Bar Styling --- */
+window#waybar {
+  color: @foreground; /* Default text color for modules on the bar */
+  background-color: @background; /* Background color of the entire Waybar */
+  font-family:
+    CaskaydiaCove Nerd Font,
+    sans-serif; /* Your preferred font with fallback */
+  font-size: 13px;
+  padding: 10px;
+  margin: 0;
+}
+
+/* --- Module General Styling --- */
+
+/* --- Separator Styling (if you use custom/separator module) --- */
+#custom-separator {
+  color: @foreground-inactive; /* Example color for your pipe separator */
+}
+
+/* --- Specific Module Styling: Workspaces --- */
+#workspaces {
+  padding-left: 10px;
+}
+
+/* Default styling for all workspace buttons */
+#workspaces button {
+  border-radius: 0;
+  background-color: @background; /* Default background for all buttons */
+  color: @foreground; /* Default text color for all buttons */
+  /* Remove any margin/padding that might be squishing them together if you use separators */
+  padding: 0 5px;
+}
+
+/* Styling for the currently ACTIVE (focused) workspace */
+#workspaces button.active {
+  background-color: @accent; /* Gruvbox yellow/orange background for the active workspace */
+  color: @background; /* Text color (e.g., dark background color) for contrast */
+  border-color: @accent; /* Underline color for active workspace */
+}
+
+/* Styling for OCCUPIED workspaces (have windows, but not currently focused) */
+#workspaces button.occupied {
+  background-color: @background; /* Keep background same as default */
+  color: @foreground; /* Keep text color same as default */
+  /* Or if you want a subtle difference: */
+  /* color: lighten(@foreground, 10%); */
+}
+
+/* Styling for URGENT workspaces (have urgent windows/notifications) */
+#workspaces button.urgent {
+  background-color: @alert; /* Gruvbox red background for urgent workspaces */
+  color: @foreground; /* Text color for urgent workspace */
+}
+
+/* Styling for EMPTY workspaces (no windows) */
+#workspaces button.empty {
+  color: @foreground-inactive; /* Use inactive foreground for empty workspaces */
+}
+
+/* Hover effect for all workspace buttons */
+#workspaces button:hover {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.2
+  ); /* Subtle transparent background on hover */
+  border-color: @accent; /* Highlight border on hover */
+}
+
+/* --- Other Modules (just a few examples, apply your original styling here) --- */
+
+#network,
+#tray {
+  padding-right: 15px;
+}
+
+#clock,
+#cpu,
+#memory,
+#custom-cputemp,
+#pulseaudio,
+#battery {
+  color: @foreground; /* Ensure text color is foreground by default */
+  background-color: @background; /* Ensure background is bar background by default */
+}
