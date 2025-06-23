@@ -24,6 +24,7 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 # ********************************************
 # * Aliases
 # ********************************************
+alias rm='trash'
 alias ls='lsd'
 alias ll='lsd -l'
 alias lla='lsd -al'
