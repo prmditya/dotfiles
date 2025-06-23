@@ -1,7 +1,7 @@
 /* --- Gruvbox Color Palette --- */
 @define-color foreground #ebdbb2; /* Gruvbox foreground */
 @define-color foreground-inactive #928374; /* Gruvbox dark gray for inactive elements */
-@define-color background #282828; /* Gruvbox background */
+@define-color background rgba(40,40,40,0.7); /* Gruvbox background */
 @define-color accent #D79921; /* Gruvbox yellow/orange - good for active highlight */
 @define-color alert #CC241D; /* Gruvbox red - good for urgent */
 @define-color blue #458588; /* Gruvbox blue */
@@ -34,7 +34,6 @@ window#waybar {
 /* Default styling for all workspace buttons */
 #workspaces button {
   border-radius: 0;
-  background-color: @background; /* Default background for all buttons */
   color: @foreground; /* Default text color for all buttons */
   /* Remove any margin/padding that might be squishing them together if you use separators */
   padding: 0 5px;
@@ -91,5 +90,4 @@ window#waybar {
 #pulseaudio,
 #battery {
   color: @foreground; /* Ensure text color is foreground by default */
-  background-color: @background; /* Ensure background is bar background by default */
 }
