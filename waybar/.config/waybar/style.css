@@ -1,7 +1,7 @@
 /* --- Gruvbox Color Palette --- */
 @define-color foreground #ebdbb2;
 @define-color foreground-inactive #928374;
-@define-color background-alpha rgba(40,40,40,0.5);
+@define-color background-alpha rgba(40,40,40,0.6);
 @define-color background rgb(40,40,40);
 @define-color accent #D79921;
 @define-color alert #CC241D;
