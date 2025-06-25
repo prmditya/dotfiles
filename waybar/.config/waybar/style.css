@@ -1,16 +1,17 @@
 /* --- Gruvbox Color Palette --- */
-@define-color foreground #ebdbb2; /* Gruvbox foreground */
-@define-color foreground-inactive #928374; /* Gruvbox dark gray for inactive elements */
-@define-color background rgba(40,40,40,0.8); /* Gruvbox background */
-@define-color accent #D79921; /* Gruvbox yellow/orange - good for active highlight */
-@define-color alert #CC241D; /* Gruvbox red - good for urgent */
-@define-color blue #458588; /* Gruvbox blue */
-@define-color orange #d65d0e; /* Gruvbox orange (if you want a different shade for active) */
+@define-color foreground #ebdbb2;
+@define-color foreground-inactive #928374;
+@define-color background-alpha rgba(40,40,40,0.5);
+@define-color background rgb(40,40,40);
+@define-color accent #D79921;
+@define-color alert #CC241D;
+@define-color blue #458588;
+@define-color orange #d65d0e;
 
 /* --- Bar Styling --- */
 window#waybar {
   color: @foreground; /* Default text color for modules on the bar */
-  background-color: @background; /* Background color of the entire Waybar */
+  background-color: @background-alpha; /* Background color of the entire Waybar */
   font-family:
     CaskaydiaCove Nerd Font,
     sans-serif; /* Your preferred font with fallback */

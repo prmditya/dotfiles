@@ -20,6 +20,7 @@ window {
   background-color: @gruv_bg;
   color: @gruv_fg;
   border: 2px solid @gruv_yellow; /* Border around the entire wofi window */
+  border-radius: 10px;
 }
 
 /* --- Input Field --- */

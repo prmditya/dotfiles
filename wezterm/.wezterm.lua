@@ -5,17 +5,17 @@ local wezterm = require("wezterm")
 return {
 	-- Font Config
 	font = wezterm.font("CaskaydiaCove Nerd Font"),
-	font_size = 11.0, -- Sesuaikan dengan preferensi Anda
+	font_size = 12.0,
 
 	-- Theme Config (Gruvbox)
-	color_scheme = "Gruvbox Material (Gogh)", -- Atau "Gruvbox light, hard (base16)" untuk tema terang
+	color_scheme = "Gruvbox Material (Gogh)",
 
 	-- General Terminal Config
 	adjust_window_size_when_changing_font_size = false,
 	enable_tab_bar = true,
 	enable_wayland = false,
 	window_decorations = "NONE",
-	window_background_opacity = 0.8,
+	window_background_opacity = 0.5,
 
 	-- Tab
 	hide_tab_bar_if_only_one_tab = true,
