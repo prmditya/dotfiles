@@ -11,3 +11,4 @@ prompt= Search
 width=500
 location=center
 hide_scroll=true
+no_actions=true

@@ -19,8 +19,7 @@ window {
   font-size: 14px; /* Adjust font size as needed */
   background-color: @gruv_bg;
   color: @gruv_fg;
-  border: 2px solid @gruv_yellow; /* Border around the entire wofi window */
-  border-radius: 10px;
+  border: 1px solid @gruv_yellow; /* Border around the entire wofi window */
 }
 
 /* --- Input Field --- */
