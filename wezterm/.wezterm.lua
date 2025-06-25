@@ -8,7 +8,7 @@ return {
 	font_size = 11.0, -- Sesuaikan dengan preferensi Anda
 
 	-- Theme Config (Gruvbox)
-	color_scheme = "Gruvbox dark, hard (base16)", -- Atau "Gruvbox light, hard (base16)" untuk tema terang
+	color_scheme = "Gruvbox Material (Gogh)", -- Atau "Gruvbox light, hard (base16)" untuk tema terang
 
 	-- General Terminal Config
 	adjust_window_size_when_changing_font_size = false,
