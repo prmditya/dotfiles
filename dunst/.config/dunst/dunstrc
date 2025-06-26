@@ -1,123 +1,35 @@
 #
-# Dunst - Minimal Gruvbox Configuration
-# Created for a clean and functional notification experience.
+# Dunst - Minimal Gruvbox Configuration (Fixed Version)
+# Save as: ~/.config/dunst/dunstrc
+# Reload: dunstctl reload  OR  killall dunst && dunst &
 #
-# Remember to save this file as ~/.config/dunst/dunstrc
-# After saving, reload Dunst with: dunstctl reload
-# Or, if that doesn't work: killall dunst && dunst &
-#
-# Test with: notify-send "Hello from Dunst!" "This is a normal notification."
-# Test critical: notify-send -u critical "CRITICAL ALERT" "System requires immediate attention."
 
 [global]
-    # Font settings
+    follow = keyboard
+    offset = (10, 10)
+
     font = CaskaydiaCove Nerd Font 10
-    # Make sure 'CaskaydiaCove Nerd Font Mono' and 'Noto Color Emoji' are installed on your system.
-    # Noto Color Emoji is a fallback for proper emoji display.
 
-    # Geometry: "WIDTHxHEIGHT-OFFSET_X+OFFSET_Y"
-    # Example: "300x5-30+30" -> 300px wide, auto height, 30px from right edge, 30px from top edge.
-    # Set height to '5' to allow it to auto-expand vertically.
-    geometry = "300x5-30+30"
+    format = "<b>%s</b>\n%b"
+    show_age_threshold = 60
+    browser = zen-browser
 
-    # Show notification at focused monitor
-    follow = mouse
-
-    # How long notification stays on screen (in milliseconds)
-    timeout = 5000
-
-    # Transparency (0-100, 0 is fully transparent, 100 is opaque)
-    # Requires a compositor (e.g., Picom)
-    transparency = 30
-
-    # Padding and Spacing
-    padding = 8                # Inner padding around text
-    horizontal_padding = 8     # Additional horizontal padding
-    gap_size = 8               # Space between stacked notifications
-
-    # Border settings
-    border_width = 0           # Width of the notification border
-
-    # Separator: Line between summary and body
-    separator_height = 0       # Set to 0 for no separator line (minimal look)
-
-    # Text wrapping and ellipsize
-    word_wrap = yes            # Wrap long words
-    ellipsize = yes            # Add "..." for long lines
-
-    # Format string for notifications
-    # Placeholders: %a (appname), %s (summary), %b (body)
-    # Formatting: <b>bold</b>, <i>italic</i>, <u>underline</u>
-    format = "<b>%s</b>\n%b" # Bold summary, new line, then body
-
-    # Icon settings
-    notification_icon = yes    # Display notification icons
-    icon_position = left       # Position of the icon (left/right)
-
-    # Other global settings
-    alignment = left           # Text alignment (left/center/right)
-    show_age_threshold = 60    # Show age (e.g., "5s ago") if older than 60 seconds
-    bounce_init = false        # Don't bounce/re-show if notification is already displayed
-    shrink = false             # Don't shrink notification if content is short
-    stick_on_scroll = yes      # Notification stays on screen while scrolling (useful for history)
-
-    # Define the browser for opening URLs in notifications (if actions are clicked)
-    browser = zen-browser # Replace with your preferred browser if different
-
-[frame]
-    # Default frame color if not specified by urgency level
-    background = "#282828" # bg0 - Dark background
-    timeout = 5000           # Standard timeout
+    timeout = 5s
 
 [urgency_low]
-    # Gruvbox colors for low urgency notifications
-    background = "#282828" # bg0 - Dark background
-    foreground = "#ebdbb2" # fg0 - Light foreground
-    frame_color = "#282828" # bg1 - Subtle border
-    timeout = 3000           # Shorter timeout for less important notifications
+    background = "#282828"
+    foreground = "#ebdbb2"
+    frame_color = "#282828"
+    timeout = 3s
 
 [urgency_normal]
-    # Gruvbox colors for normal urgency notifications
-    background = "#282828" # bg0 - Dark background
-    foreground = "#ebdbb2" # fg0 - Light foreground
-    frame_color = "#3c3836" # blue - Pleasant accent border
-    timeout = 5000           # Standard timeout
+    background = "#282828"
+    foreground = "#ebdbb2"
+    frame_color = "#3c3836"
+    timeout = 5s
 
 [urgency_critical]
-    # Gruvbox colors for critical urgency notifications
-    background = "#cc241d" # red - Attention-grabbing background
-    foreground = "#fbf1c7" # fg1 - Very light foreground
-    frame_color = "#458588" # yellow - Distinct border
-    timeout = 0              # Stays on screen indefinitely until dismissed
-    # You might want to play a sound for critical notifications (requires a script)
-    # script = /path/to/your/sound_script.sh
-
-[shortcuts]
-    # Keyboard shortcuts to control Dunst (adjust to your preference)
-    close = super+d
-    close_all = super+shift+d
-    history_next = super+period
-    history_prev = super+comma
-    toggle_pause = super+p
-
-# Example Rules (Uncomment and modify as needed)
-# You can define custom rules based on appname, summary, body, etc.
-# [firefox_download_complete]
-# appname = "Firefox"
-# summary = "*Download Complete*" # Wildcards allowed
-# background = "#458588" # Blue background for Firefox downloads
-# timeout = 8000
-
-# [volume_indicator]
-# appname = "pactl" # Or whatever sends your volume notifications
-# summary = "Volume:"
-# format = "%b" # Only show the body (e.g., the volume bar)
-# icon_position = off
-# padding = 0
-# horizontal_padding = 0
-# border_width = 0
-# background = "#00000000" # Transparent background
-# frame_color = "#00000000" # Transparent border
-# transparency = 100 # Fully opaque so bar is visible
-# geometry = "200x20-10-60" # Example: small bar at bottom right
-# timeout = 2000
+    background = "#cc241d"
+    foreground = "#fbf1c7"
+    frame_color = "#458588"
+    timeout = 999999s
