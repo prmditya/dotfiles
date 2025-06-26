@@ -1,15 +1,7 @@
-# ----------------------------------------
 # Fastfetch (show system info at shell startup)
 # Must run at the very top to print before prompt
 if command -v fastfetch &> /dev/null; then
   fastfetch
-fi
-
-# ----------------------------------------
-# Powerlevel10k Instant Prompt
-# Should be near the top for faster prompt loading
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
 # ----------------------------------------
@@ -27,7 +19,6 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 
 # ----------------------------------------
 # Aliases
-alias rm='trash'
 alias ls='lsd'
 alias ll='lsd -l'
 alias lla='lsd -al'
@@ -53,6 +44,7 @@ yayf() {
 
 # zoxide initialization
 eval "$(zoxide init zsh)"
+eval "$(starship init zsh)"
 
 # fzf key bindings and completion (after Oh My Zsh)
 [ -f /usr/share/fzf/key-bindings.zsh ] && source /usr/share/fzf/key-bindings.zsh
@@ -62,13 +54,6 @@ eval "$(zoxide init zsh)"
 # PATH additions
 export PATH="$PATH:/home/ditya/.spicetify"
 export PATH="/usr/lib/zed:$PATH"
-
-# ----------------------------------------
-# Powerlevel10k theme initialization
-source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
-
-# Source user config for Powerlevel10k if it exists
-[[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
 
 # ----------------------------------------
 # Node Version Manager (nvm) Setup
