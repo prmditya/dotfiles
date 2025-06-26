@@ -1,17 +1,11 @@
+@import "colors-waybar.css";
 /* --- Gruvbox Color Palette --- */
-@define-color foreground #ebdbb2;
 @define-color foreground-inactive #928374;
-@define-color background-alpha rgba(40,40,40,0.6);
-@define-color background rgb(40,40,40);
-@define-color accent #D79921;
-@define-color alert #CC241D;
-@define-color blue #458588;
-@define-color orange #d65d0e;
 
 /* --- Bar Styling --- */
 window#waybar {
   color: @foreground; /* Default text color for modules on the bar */
-  background-color: @background-alpha; /* Background color of the entire Waybar */
+  background-color: @background; /* Background color of the entire Waybar */
   font-family:
     CaskaydiaCove Nerd Font,
     sans-serif; /* Your preferred font with fallback */
@@ -42,9 +36,9 @@ window#waybar {
 
 /* Styling for the currently ACTIVE (focused) workspace */
 #workspaces button.active {
-  background-color: @accent; /* Gruvbox yellow/orange background for the active workspace */
+  background-color: @color6; /* Gruvbox yellow/orange background for the active workspace */
   color: @background; /* Text color (e.g., dark background color) for contrast */
-  border-color: @accent; /* Underline color for active workspace */
+  border-color: @color6; /* Underline color for active workspace */
 }
 
 /* Styling for OCCUPIED workspaces (have windows, but not currently focused) */
@@ -57,7 +51,7 @@ window#waybar {
 
 /* Styling for URGENT workspaces (have urgent windows/notifications) */
 #workspaces button.urgent {
-  background-color: @alert; /* Gruvbox red background for urgent workspaces */
+  background-color: @color9; /* Gruvbox red background for urgent workspaces */
   color: @foreground; /* Text color for urgent workspace */
 }
 
@@ -71,7 +65,7 @@ window#waybar {
     0,
     0.2
   ); /* Subtle transparent background on hover */
-  border-color: @accent; /* Highlight border on hover */
+  border-color: @color6; /* Highlight border on hover */
 }
 
 /* --- Other Modules (just a few examples, apply your original styling here) --- */
