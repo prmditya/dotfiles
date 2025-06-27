@@ -1,20 +1,28 @@
 -- ~/.config/nvim/lua/plugins/colorscheme.lua
--- Configuration for colorschemes
+-- Load pywal colorscheme dynamically, fallback to gruvbox
 
 return {
-  -- Add gruvbox
+
   {
     "ellisonleao/gruvbox.nvim",
+    opts = { transparent_mode = true },
+  },
+
+  {
+    "RedsXDD/neopywal.nvim",
+    name = "neopywal",
+    lazy = true,
+    priority = 1000,
     opts = {
-      transparent_mode = true,
+      transparent_background = true,
     },
   },
 
-  -- Configure LazyVim to load gruvbox
+  -- Config to load the selected colorscheme
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox",
+      colorscheme = "neopywal-dark",
     },
   },
 }
