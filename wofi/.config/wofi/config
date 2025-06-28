@@ -1,7 +1,7 @@
 # Wofi configuration file
 show_icons=true
 allow_images=true
-insensitive=false
+insensitive=true
 term=wezterm
 show_all=true
 gtk_dark=false
