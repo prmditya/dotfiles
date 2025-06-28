@@ -2,14 +2,13 @@
     "layer": "top",
     "position": "top",
     "height": 20,
-    "spacing": 5,
 
     "modules-left": ["hyprland/workspaces", "custom/separator", "hyprland/window"],
     "modules-center": ["clock"],
     "modules-right": ["temperature", "custom/separator", "wireplumber", "custom/separator", "backlight", "custom/separator", "battery", "custom/separator", "tray"],
 
     "custom/separator": {
-        "format": " | ",
+        "format": "|",
         "tooltip": false,
         "class": "separator"
     },
@@ -33,7 +32,7 @@
     },
 
     "clock": {
-        "format": "{:%a %m, %H:%M}"
+        "format": "{:%a %d %H:%M}"
     },
 
     "wireplumber": {
