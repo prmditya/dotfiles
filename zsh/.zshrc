@@ -7,7 +7,7 @@ fi
 # ----------------------------------------
 # Fastfetch (show system info at shell startup)
 if command -v fastfetch &> /dev/null; then
-  fastfetch
+  # fastfetch
 fi
 
 # ----------------------------------------

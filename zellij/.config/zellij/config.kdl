@@ -271,12 +271,12 @@ load_plugins {
 //   - true
 //   - false (Default)
 // 
-simplified_ui true
+simplified_ui false
  
 // Choose the theme that is specified in the themes section.
 // Default: default
 // 
-theme "gruvbox-dark"
+theme "ansi"
  
 // Choose the base input mode of zellij.
 // Default: normal
@@ -384,7 +384,7 @@ theme "gruvbox-dark"
 // otherwise this will error if such a session exists.
 // Default: <RANDOM>
 // 
-// session_name "My singleton session"
+// session_name "vibing"
  
 // When `session_name` is provided, attaches to that session
 // if it is already running or creates it otherwise.
