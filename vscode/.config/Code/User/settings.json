@@ -4,10 +4,10 @@
   "editor.lineNumbers": "relative",
   "editor.fontWeight": "bold",
   "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
-  "editor.fontSize": 14,
+  "editor.fontSize": 12,
   "editor.indentSize": "tabSize",
-  "editor.letterSpacing": 0.4,
-  "editor.lineHeight": 1.4,
+  "editor.letterSpacing": 0.3,
+  "editor.lineHeight": 1.5,
   "editor.tabSize": 2,
 
   // UI
@@ -17,7 +17,7 @@
   "window.menuBarVisibility": "toggle",
   "workbench.iconTheme": "material-icon-theme",
   "editor.mouseWheelZoom": true,
-  "window.zoomLevel": 0.2,
+  "window.zoomLevel": 0.8,
   "material-icon-theme.folders.theme": "specific",
   "workbench.startupEditor": "none",
   "workbench.activityBar.location": "bottom",
@@ -25,37 +25,6 @@
   "notebook.output.textLineLimit": 15,
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
-
-  // APC
-  "apc.font.family": "CaskaydiaCove Nerd Font",
-  "apc.menubar.compact": false,
-  "apc.monospace.font.family": "CaskaydiaCove Nerd Font",
-  "apc.activityBar": {
-    "position": "bottom",
-    "size": 28
-  },
-  "apc.header": {
-    "default": 25
-  },
-  "apc.statusBar": {
-    "position": "editor-bottom",
-    "fontSize": 12,
-    "height": 28
-  },
-  "apc.listRow": {
-    "lists": [
-      "customview-tree",
-      "results",
-      "open-editors",
-      "explorer-folders-view",
-      "outline-tree",
-      "scm-view",
-      "debug-view-content",
-      "debug-breakpoints",
-      "tree"
-    ],
-    "height": 20
-  },
 
   // Formatter
   "editor.formatOnSave": true,
@@ -95,16 +64,12 @@
     }
   ],
   "pythonIndent.trimLinesWithOnlyWhitespace": true,
-  "python.createEnvironment.trigger": "off",
 
-  // PROLOG
-  "prolog.executablePath": "C:\\Program Files\\swipl\\bin\\swipl.exe",
-  "prolog.linter.run": "onType",
+  // Github Copilot
   "github.copilot.enable": {
     "*": false,
     "plaintext": false,
     "markdown": false,
     "scminput": false
-  },
-  "workbench.sideBar.location": "right"
+  }
 }
