@@ -11,7 +11,7 @@
   "editor.tabSize": 2,
 
   // UI
-  "workbench.colorTheme": "Gruvbox Dark Medium",
+  "workbench.colorTheme": "Wal Bordered",
   "breadcrumbs.enabled": false,
   "editor.minimap.enabled": false,
   "window.menuBarVisibility": "toggle",
@@ -72,5 +72,6 @@
     "markdown": false,
     "scminput": false
   },
-  "workbench.sideBar.location": "right"
+  "workbench.sideBar.location": "right",
+  "explorer.confirmDelete": false
 }
