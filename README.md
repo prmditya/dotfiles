@@ -2,8 +2,7 @@
 
 <div align=center>
   
-![Pasted image (2)](https://github.com/user-attachments/assets/6f75ec54-2391-428b-af82-0482e7dd8e86)
-
+![2025-07-02_20-16-44](https://github.com/user-attachments/assets/a19804ba-a897-45ca-b41e-821a337169da)
 
 </div>
 
