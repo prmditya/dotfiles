@@ -1,6 +1,6 @@
 font-family = CaskaydiaCove Nerd Font
 
-theme = ghostty
+theme = ghostty.conf
 
 cursor-style = block
 

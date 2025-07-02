@@ -35,7 +35,6 @@ done
 
 # Generate pywal theme
 wal --cols16 lighten -i "$WALL"
-nvim --headless "+lua require('lushwal').generate()" +qa
 sed -i "s|^ *path = .*|    path = $WALL|" ~/.config/hypr/hyprlock.conf
 ~/.config/dunst/update-dunst-colors.sh
 
