@@ -2,7 +2,7 @@ font-family = CaskaydiaCove Nerd Font
 
 theme = ghostty.conf
 
-cursor-style = block
+cursor-style = bar
 
 background-opacity = 0.7
 
