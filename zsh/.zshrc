@@ -1,14 +1,8 @@
 # ----------------------------------------
-# Pywal (auto colorize my terminal)
-# Must run at the very top to print before prompt
-if command -v wal &> /dev/null; then
-  wal -R -q
-fi
-# ----------------------------------------
 # Fastfetch (show system info at shell startup)
-if command -v fastfetch &> /dev/null; then
-  # fastfetch
-fi
+# if command -v fastfetch &> /dev/null; then
+#   fastfetch
+# fi
 
 # ----------------------------------------
 # Oh My Zsh Setup

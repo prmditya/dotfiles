@@ -39,6 +39,7 @@ nvim --headless "+lua require('lushwal').generate()" +qa
 sed -i "s|^ *path = .*|    path = $WALL|" ~/.config/hypr/hyprlock.conf
 ~/.config/hypr/update-hypr-colors.sh
 ~/.config/dunst/update-dunst-colors.sh
+~/.config/ghostty/update-ghostty-colors.sh
 
 # Reload components
 killall waybar && waybar &
