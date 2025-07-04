@@ -3,7 +3,7 @@
 /* --- General Wofi Window --- */
 window {
   font-family: "CaskaydiaCove Nerd Font Mono";
-  font-size: 14px; /* Adjust font size as needed */
+  font-size: 12px; /* Adjust font size as needed */
   background-color: @background;
   color: @foreground;
   border: 1px solid @color6; /* Border around the entire wofi window */
@@ -40,6 +40,13 @@ window {
 #entry image {
   margin-right: 10px;
   margin-left: 5px;
+  width: 5px;
+}
+
+/* --- Scrollbar --- */
+#scroll {
+  /* Since hide_scroll=true, this might not be visible. */
+  /* If you change hide_scroll=false, you can style it here. */
 }
 
 /* --- Mode Buttons (for sidebar mode) --- */
