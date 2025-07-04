@@ -4,25 +4,31 @@
 
 window#waybar {
   color: @foreground;
-  background-color: @background;
+  background-color: @color6;
   font-family: CaskaydiaCove Nerd Font;
   font-size: 13px;
-  padding: 10px;
   margin: 0;
 }
 
 #custom-separator {
+  background-color: @background;
   color: @foreground-inactive;
 }
 
 #window {
-  padding-left: 7px;
+  padding: 0 7px;
+  background-color: @color6;
+  color: @background;
+}
+
+#workspaces {
+  background-color: @background;
 }
 
 #workspaces button {
   border-radius: 0;
   color: @foreground;
-  padding: 0 5px;
+  padding: 0 3px;
 }
 
 #workspaces button.active {
@@ -47,14 +53,16 @@ window#waybar {
 }
 
 #tray {
-  padding-left: 5px;
-  padding-right: 10px;
+  background-color: @background;
+  padding: 0 7px;
 }
 
 #temperature,
 #wireplumber,
 #backlight,
-#battery {
+#battery,
+#clock {
+  background-color: @background;
   color: @foreground;
   padding: 0 7px;
 }
