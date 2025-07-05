@@ -1,6 +1,7 @@
 #!/bin/bash
 
 WALL_DIR="$HOME/Pictures/Wallpapers"
+CURRENT_WALL="$HOME/.cache/current_wallpaper"
 
 # Ensure dependencies
 for cmd in nsxiv wal feh; do
@@ -24,6 +25,7 @@ WALL=$(realpath "$WALL")
 
 # Apply wallpaper
 feh --bg-scale "$WALL"
+echo "$WALL" >"$CURRENT_WALL"
 
 # Generate pywal theme
 wal --cols16 lighten -i "$WALL" || notify-send "❌ Pywal theme generation failed." && exit 1
