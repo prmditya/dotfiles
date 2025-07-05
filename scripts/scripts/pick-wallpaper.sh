@@ -33,33 +33,43 @@ fi
 WALL=$(realpath "$WALL")
 
 # --- Apply Wallpaper with hyprpaper ---
-# Ensure hyprpaper-client is available.
-if ! command -v hyprpaper-client &>/dev/null; then
-  notify-send "❌ Error: hyprpaper-client is not installed or not in PATH."
+# Ensure hyprpaper is available.
+if ! command -v hyprpaper &>/dev/null; then
+  notify-send "❌ Error: hyprpaper is not installed or not in PATH."
   exit 1
 fi
 
-hyprpaper-client unload all || { notify-send "❌ Failed to unload existing wallpapers."; }
-hyprpaper-client preload "$WALL" || {
-  notify-send "❌ Failed to preload wallpaper: $WALL"
-  exit 1
-}
-
-# Auto-detect currently connected monitors using hyprctl.
-# Ensure hyprctl is available.
+# Check if hyprctl is available for IPC commands
 if ! command -v hyprctl &>/dev/null; then
   notify-send "❌ Error: hyprctl is not installed or not in PATH."
   exit 1
 fi
 
+# Unload all currently loaded wallpapers (correct syntax)
+hyprctl hyprpaper unload all || { notify-send "❌ Failed to unload existing wallpapers."; }
+
+# Preload the new wallpaper (correct syntax)
+hyprctl hyprpaper preload "$WALL" || {
+  notify-send "❌ Failed to preload wallpaper: $WALL"
+  exit 1
+}
+
+# Auto-detect currently connected monitors using hyprctl.
 MONITORS=$(hyprctl monitors | awk '/Monitor/ {print $2}')
 if [ -z "$MONITORS" ]; then
   notify-send "⚠️ Warning: No monitors detected by hyprctl. Wallpaper might not apply correctly."
 fi
 
+# Apply wallpaper to all monitors (correct syntax)
 for MON in $MONITORS; do
-  hyprpaper-client wallpaper "$MON,$WALL" || notify-send "❌ Failed to set wallpaper on monitor: $MON"
+  hyprctl hyprpaper wallpaper "$MON,$WALL" || notify-send "❌ Failed to set wallpaper on monitor: $MON"
 done
+
+# Wait a moment before unloading unused images
+sleep 1
+
+# Unload unused wallpapers to free up memory
+hyprctl hyprpaper unload unused || notify-send "⚠️ Failed to unload unused wallpapers."
 
 # --- Save Wallpaper Configuration to hyprpaper.conf ---
 # Overwrite the hyprpaper.conf with only the new wallpaper settings.
@@ -82,7 +92,9 @@ else
 
   # Update hyprlock.conf with the new wallpaper path for the lockscreen.
   # This uses sed to find and replace the 'path =' line.
-  sed -i "s|^ *path = .*|    path = $WALL|" ~/.config/hypr/hyprlock.conf || notify-send "❌ Failed to update hyprlock.conf."
+  if [ -f ~/.config/hypr/hyprlock.conf ]; then
+    sed -i "s|^ *path = .*|    path = $WALL|" ~/.config/hypr/hyprlock.conf || notify-send "❌ Failed to update hyprlock.conf."
+  fi
 
   # Execute spicetify and dunst update scripts if they exist and are executable.
   if command -v pywal-spicetify &>/dev/null; then
@@ -102,7 +114,7 @@ fi
 # --- Reload Components ---
 # Reload Waybar: kill existing instances and start a new one.
 if pgrep -x "waybar" >/dev/null; then
-  killall waybar && waybar &
+  killall waybar && sleep 0.5 && waybar &
   disown
   notify-send "✔️ Waybar reloaded."
 else
@@ -113,7 +125,7 @@ fi
 
 # Reload Dunst: kill existing instances and start a new one.
 if pgrep -x "dunst" >/dev/null; then
-  killall dunst && dunst &
+  killall dunst && sleep 0.5 && dunst &
   disown
   notify-send "✔️ Dunst reloaded."
 else
@@ -127,18 +139,8 @@ fi
 hyprctl reload || notify-send "❌ Failed to reload Hyprland configuration."
 notify-send "✔️ Hyprland configuration reloaded."
 
-# Restart hyprpaper explicitly, in case hyprctl reload doesn't fully handle it
-# or if hyprpaper is not managed by Hyprland's startup.
-if pgrep -x "hyprpaper" >/dev/null; then
-  killall hyprpaper
-  sleep 0.2 # Give it a moment to fully terminate
-  hyprpaper &
-  disown
-  notify-send "✔️ Hyprpaper restarted."
-else
-  hyprpaper &
-  disown # Start if not running
-  notify-send "✔️ Hyprpaper started."
-fi
+# Note: No need to manually restart hyprpaper since we're using IPC commands
+# and the configuration has been updated. The hyprctl reload should handle
+# any necessary refreshing of hyprpaper.
 
 notify-send "🎉 Wallpaper & theme updated successfully!"
