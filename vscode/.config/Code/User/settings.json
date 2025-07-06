@@ -73,5 +73,11 @@
     "scminput": false
   },
   "workbench.sideBar.location": "right",
-  "explorer.confirmDelete": false
+  "explorer.confirmDelete": false,
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "[c]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  }
 }

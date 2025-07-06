@@ -12,7 +12,7 @@ return {
         "shfmt",
         "flake8",
         "rust-analyzer",
-        "clangd",
+        -- "clangd",
       },
     },
   },

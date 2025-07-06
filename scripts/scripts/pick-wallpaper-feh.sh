@@ -41,8 +41,11 @@ fi
 # echo "⚠️ DWM needs to be recompiled for new colors" | dunstify -u low
 
 # Update spicetify if available
+# Execute spicetify and dunst update scripts if they exist and are executable.
 if command -v pywal-spicetify &>/dev/null; then
-  pywal-spicetify text && notify-send "✔️ Spicetify updated." || notify-send "❌ Spicetify failed."
+  pywal-spicetify text || notify-send "❌ pywal-spicetify failed."
+else
+  notify-send "⚠️ pywal-spicetify not found. Skipping Spicetify theme update."
 fi
 
 notify-send "🎉 Wallpaper + Theme Updated!" -u normal
