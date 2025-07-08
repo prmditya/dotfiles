@@ -2,28 +2,42 @@
 
 @define-color foreground-inactive #928374;
 
-window#waybar {
+* {
   color: @foreground;
-  background-color: @color6;
   font-family: CaskaydiaCove Nerd Font;
-  font-size: 13px;
-  font-weight: 400;
-  margin: 0;
 }
 
-#custom-separator {
-  background-color: @background;
-  color: @foreground-inactive;
+window#waybar {
+  all: unset;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+  background-color: alpha(@background, 0.5);
+  margin: 10px 10px;
+  margin-bottom: 0px;
+  border-radius: 15px;
+  border: 1px solid @color6;
+  padding: 0 10px;
+}
+
+#workspaces {
+  padding-right: 7px;
 }
 
 #window {
   padding: 0 7px;
-  background-color: @color6;
-  color: @background;
+  color: @foreground;
 }
 
-#workspaces {
-  background-color: @background;
+#custom-separator {
+  color: alpha(@color6, 0.5);
+}
+
+tooltip {
+  background: rgba(40, 40, 40, 0.9);
+  border: 1px solid rgba(100, 114, 125, 0.5);
 }
 
 #workspaces button {
@@ -33,9 +47,8 @@ window#waybar {
 }
 
 #workspaces button.active {
-  background-color: @color6;
-  color: @background;
-  border-color: @color6;
+  color: @foreground;
+  font-size: 15px;
 }
 
 #workspaces button.occupied {
@@ -49,12 +62,10 @@ window#waybar {
 }
 
 #workspaces button:hover {
-  background-color: @background;
-  border-color: @color6;
+  border: none;
 }
 
 #tray {
-  background-color: @background;
   padding: 0 7px;
 }
 
@@ -63,7 +74,6 @@ window#waybar {
 #backlight,
 #battery,
 #clock {
-  background-color: @background;
   color: @foreground;
   padding: 0 7px;
 }

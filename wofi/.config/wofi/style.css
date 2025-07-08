@@ -1,12 +1,17 @@
 @import url("file:///home/ditya/.config/wofi/colors-waybar.css"); /* change ditya with your user */
 
+* {
+  box-sizing: border-box;
+}
+
 /* --- General Wofi Window --- */
 window {
   font-family: "CaskaydiaCove Nerd Font Mono";
   font-size: 14px; /* Adjust font size as needed */
-  background-color: @background;
+  background-color: alpha(@background, 0.7);
   color: @foreground;
   border: 1px solid @color6; /* Border around the entire wofi window */
+  border-radius: 15px;
 }
 
 /* --- Input Field --- */
@@ -15,31 +20,26 @@ window {
   color: @foreground;
   border: none;
   padding: 5px 15px;
-  margin: 5px;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 /* --- Inner Scrollable Area (where results are listed) --- */
 #outer-box {
-  padding: 5px;
-  margin: 5px; /* Spacing around the results list */
-}
-
-/* --- Each Entry (application/window) --- */
-#entry {
-  padding: 8px 10px;
-  margin: 2px 0;
+  padding: 20px;
 }
 
 /* --- Selected/Active Entry --- */
 #entry:selected {
-  background-color: @color8; /* Accent color for selection */
+  background-color: alpha(@color8, 0.5); /* Accent color for selection */
   color: @color6; /* Text color for selected item */
+  border-radius: 10px;
 }
 
 /* --- Icons in Entries --- */
 #entry image {
   margin-right: 10px;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 /* --- Mode Buttons (for sidebar mode) --- */
