@@ -11,7 +11,7 @@ The primary goal of this repository is to quickly bootstrap my development envir
 
 ### Hyprland:
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/657882a6-9a5b-4e96-bd61-badff39ef90c" alt="Hyprland screenshot">
+  <img src="https://github.com/user-attachments/assets/fd3bdd16-1f9b-4df9-bca2-e65f569fca8e" alt="Hyprland screenshot">
 </div>
 
 ### dwm (with patches: vanitygaps, attachbelow, alwayscenter, systray, xrdb):
