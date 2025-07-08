@@ -21,18 +21,29 @@ WALL=$(nsxiv -t -o "$WALL_DIR" | head -n 1)
   exit 1
 }
 
-WALL=$(realpath "$WALL")
-
 # Apply wallpaper
 feh --bg-scale "$WALL"
 echo "$WALL" >"$CURRENT_WALL"
 
 # Generate pywal theme
-wal --cols16 lighten -i "$WALL" || notify-send "❌ Pywal theme generation failed." && exit 1
+if wal --cols16 lighten -i "$WALL"; then
+  # Pywal theme generation succeeded.
+  # No action needed here, the script will continue.
+  : # This is a no-op command, simply does nothing.
+else
+  # Pywal theme generation failed.
+  notify-send "❌ Pywal theme generation failed."
+  exit 1 # Exit the script with an error code
+fi
 
 # Update dunst if exists
-if [ -x ~/.config/dunst/update-dunst-colors.sh ]; then
-  ~/.config/dunst/update-dunst-colors.sh && notify-send "✔️ Dunst reloaded." || notify-send "❌ Dunst reload failed."
+if [ -x /home/ditya/.config/dunst/update-dunst-colors.sh ]; then
+  ~/.config/dunst/update-dunst-colors.sh
+  if [ $? -eq 0 ]; then
+    notify-send "✔️ Dunst reloaded."
+  else
+    notify-send "❌ Dunst reload failed. Check logs."
+  fi
 else
   notify-send "⚠️ Dunst color script not found."
 fi
@@ -48,4 +59,4 @@ else
   notify-send "⚠️ pywal-spicetify not found. Skipping Spicetify theme update."
 fi
 
-notify-send "🎉 Wallpaper + Theme Updated!" -u normal
+notify-send "🎉 Wallpaper + Theme Updated!"

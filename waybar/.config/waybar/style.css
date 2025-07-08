@@ -15,15 +15,11 @@ window#waybar {
 .modules-center,
 .modules-right {
   background-color: alpha(@background, 0.5);
-  margin: 10px 10px;
+  margin: 5px 10px;
   margin-bottom: 0px;
   border-radius: 15px;
   border: 1px solid @color6;
   padding: 0 10px;
-}
-
-#workspaces {
-  padding-right: 7px;
 }
 
 #window {
@@ -36,8 +32,14 @@ window#waybar {
 }
 
 tooltip {
-  background: rgba(40, 40, 40, 0.9);
-  border: 1px solid rgba(100, 114, 125, 0.5);
+  background-color: @background;
+  border: 1px solid alpha(@color6, 0.3);
+  border-radius: 15px;
+}
+
+#workspaces {
+  padding-right: 7px;
+  font-size: 10px;
 }
 
 #workspaces button {
@@ -48,7 +50,7 @@ tooltip {
 
 #workspaces button.active {
   color: @foreground;
-  font-size: 15px;
+  font-size: 12px;
 }
 
 #workspaces button.occupied {

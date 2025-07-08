@@ -14,7 +14,7 @@
     },
 
     "hyprland/window": {
-        "format": "{title}",
+        "format": "󰣇 {title}",
         "max-length": 100,
         "tooltip": true
     },

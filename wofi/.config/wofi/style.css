@@ -24,6 +24,11 @@ window {
   margin-bottom: 10px;
 }
 
+#input:focus {
+  box-shadow: none;
+  border: none;
+}
+
 /* --- Inner Scrollable Area (where results are listed) --- */
 #outer-box {
   padding: 20px;
