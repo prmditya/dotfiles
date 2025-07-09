@@ -27,8 +27,10 @@ The primary goal of this repository is to quickly bootstrap my development envir
 .
 ├── archive/          # Archived/legacy configs (i3, polybar, etc.)
 ├── dunst/            # Notification daemon config
-├── dwm/              # dwm with custom patches
-│   └── dwm/          # Source and patches
+├── suckless/         # suckless software that im using
+│   └── dwm/          # dwm source and patches
+│   │   └── patches/  # Custom patches used
+│   └── st/           # st source and patches
 │       └── patches/  # Custom patches used
 ├── fastfetch/
 ├── ghostty/
