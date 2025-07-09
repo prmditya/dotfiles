@@ -1,7 +1,7 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const unsigned int borderpx  = 2;        /* border pixel of windows */
+static const unsigned int borderpx  = 1;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const unsigned int systraypinning = 0;   /* 0: sloppy systray follows selected monitor, >0: pin systray to monitor X */
 static const unsigned int systrayonleft = 0;    /* 0: systray in the right corner, >0: systray on left of status text */
@@ -83,7 +83,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static const char *roficmd[] = { "rofi", "-show", "drun", NULL };
-static const char *termcmd[] = { "ghostty", NULL };
+static const char *termcmd[] = { "st", NULL };
 static const char *setwallcmd[] = { "/home/ditya/scripts/pick-wallpaper-feh.sh", NULL };
 static const char *screenshot_area[] = { "/home/ditya/scripts/screenshot.sh", "area", NULL };
 static const char *screenshot_full[] = { "/home/ditya/scripts/screenshot.sh", "full", NULL };
