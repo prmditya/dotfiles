@@ -59,4 +59,5 @@ else
   notify-send "⚠️ pywal-spicetify not found. Skipping Spicetify theme update."
 fi
 
+xdotool key 'Super+F5'
 notify-send "🎉 Wallpaper + Theme Updated!"

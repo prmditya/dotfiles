@@ -11,8 +11,6 @@ return {
         "shellcheck",
         "shfmt",
         "flake8",
-        "rust-analyzer",
-        -- "clangd",
       },
     },
   },
