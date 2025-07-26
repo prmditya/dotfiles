@@ -11,24 +11,40 @@ window#waybar {
   all: unset;
 }
 
-.modules-left,
-.modules-center,
-.modules-right {
+#workspaces {
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 4.5px;
   background-color: alpha(@background, 0.5);
-  margin: 5px 10px;
-  margin-bottom: 0px;
-  border-radius: 15px;
+  border-radius: 10px;
   border: 1px solid @color6;
-  padding: 0 10px;
+}
+
+#tray {
+  margin-top: 5px;
+  margin-left: 2.5px;
+  margin-right: 10px;
+  background-color: alpha(@background, 0.5);
+  border-radius: 10px;
+  border: 1px solid @color6;
+}
+
+#clock,
+#temperature,
+#wireplumber,
+#backlight,
+#battery,
+#window {
+  background-color: alpha(@background, 0.5);
+  margin: 5px 2.5px;
+  margin-bottom: 0px;
+  border-radius: 10px;
+  border: 1px solid @color6;
 }
 
 #window {
   padding: 0 7px;
   color: @foreground;
-}
-
-#custom-separator {
-  color: alpha(@color6, 0.5);
 }
 
 tooltip {

@@ -3,19 +3,13 @@
     "position": "top",
     "height": 10,
 
-    "modules-left": ["hyprland/workspaces", "custom/separator", "hyprland/window"],
+    "modules-left": ["hyprland/workspaces", "hyprland/window"],
     "modules-center": ["clock"],
-    "modules-right": ["temperature", "custom/separator", "wireplumber", "custom/separator", "backlight", "custom/separator", "battery", "custom/separator", "tray"],
-
-    "custom/separator": {
-        "format": "|",
-        "tooltip": false,
-        "class": "separator"
-    },
+    "modules-right": ["temperature", "wireplumber", "backlight",  "battery", "tray"],
 
     "hyprland/window": {
         "format": "󰣇 {title}",
-        "max-length": 100,
+        "max-length": 50,
         "tooltip": true
     },
 
